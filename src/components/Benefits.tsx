@@ -19,7 +19,7 @@ const Benefits = () => {
       title: "Zero Context Switching",
       description: "Stay in your flow state. Plan, document, and code without ever leaving your development environment.",
       stats: "95% less context switching",
-      color: "from-blue-500 to-cyan-500",
+      color: "from-primary-500 to-accent-500",
       features: ["Inline planning", "IDE integration", "Seamless workflow"]
     },
     {
@@ -27,7 +27,7 @@ const Benefits = () => {
       title: "10x Faster Planning",
       description: "Transform hours of planning meetings into minutes of intelligent conversation.",
       stats: "90% time reduction", 
-      color: "from-green-500 to-emerald-500",
+      color: "from-success-500 to-primary-500",
       features: ["Instant PRDs", "Auto-documentation", "Rapid iteration"]
     },
     {
@@ -35,7 +35,7 @@ const Benefits = () => {
       title: "Intelligent Guidance", 
       description: "AI-powered questioning system ensures you never miss critical requirements.",
       stats: "100% requirement coverage",
-      color: "from-purple-500 to-pink-500", 
+      color: "from-accent-500 to-warning-500", 
       features: ["Smart questions", "Gap detection", "Best practices"]
     },
     {
@@ -43,7 +43,7 @@ const Benefits = () => {
       title: "Perfect for Teams",
       description: "Whether you're a solo developer or part of a large team, VibeCoder adapts to your workflow.",
       stats: "Used by 1000+ teams",
-      color: "from-orange-500 to-red-500",
+      color: "from-warning-500 to-primary-500",
       features: ["Scalable collaboration", "Shared understanding", "Clear communication"]
     }
   ]
@@ -74,7 +74,7 @@ const Benefits = () => {
   console.log('Benefits component rendered')
 
   return (
-    <section id="benefits" className="section-padding bg-gradient-to-b from-vibe-800 to-vibe-900">
+    <section id="benefits" className="section-padding bg-gradient-to-b from-darkula-600 to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -90,19 +90,19 @@ const Benefits = () => {
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             viewport={{ once: true }}
           >
-            <TrendingUp className="w-4 h-4 text-primary-400" />
-            <span className="text-sm font-medium text-primary-300">
+            <TrendingUp className="w-4 h-4 text-primary-500" />
+            <span className="text-sm font-medium text-primary-500">
               Measurable Impact
             </span>
           </motion.div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-vibe-100">Why Developers</span>
+            <span className="text-darkula-50">Why Developers</span>
             <br />
             <span className="gradient-text">Love VibeCoder</span>
           </h2>
           
-          <p className="text-xl text-vibe-300 max-w-3xl mx-auto">
+          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
             Join thousands of developers who've transformed their workflow with inline planning. 
             Experience the benefits that matter most to modern development teams.
           </p>
@@ -139,11 +139,11 @@ const Benefits = () => {
                 </div>
 
                 {/* Content */}
-                <h3 className="text-2xl font-bold text-vibe-100 mb-4 group-hover:text-white transition-colors">
+                <h3 className="text-2xl font-bold text-darkula-50 mb-4 group-hover:text-darkula-50 transition-colors">
                   {benefit.title}
                 </h3>
                 
-                <p className="text-vibe-300 mb-6 leading-relaxed">
+                <p className="text-darkula-200 mb-6 leading-relaxed">
                   {benefit.description}
                 </p>
 
@@ -152,13 +152,13 @@ const Benefits = () => {
                   {benefit.features.map((feature, featureIndex) => (
                     <motion.li
                       key={feature}
-                      className="flex items-center space-x-2 text-sm text-vibe-400"
+                      className="flex items-center space-x-2 text-sm text-darkula-200"
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ delay: (index * 0.1) + (featureIndex * 0.05) + 0.3 }}
                       viewport={{ once: true }}
                     >
-                      <CheckCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-success-500 flex-shrink-0" />
                       <span>{feature}</span>
                     </motion.li>
                   ))}

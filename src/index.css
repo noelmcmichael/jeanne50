@@ -13,8 +13,8 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0f172a;
-  color: #f8fafc;
+  background: #2B2B2B; /* Darkula dark background */
+  color: #A9B7C6; /* Darkula default text */
 }
 
 /* Custom utility classes */
@@ -40,9 +40,9 @@ body {
   margin-right: auto;
 }
 
-/* Gradient text effect */
+/* Gradient text effect - Darkula colors */
 .gradient-text {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4);
+  background: linear-gradient(135deg, #CC7832, #6897BB, #6A8759);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -50,29 +50,29 @@ body {
   animation: gradient-shift 8s ease-in-out infinite;
 }
 
-/* Glass morphism effect */
+/* Glass morphism effect - Darkula style */
 .glass {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(60, 63, 65, 0.8); /* Darkula background with transparency */
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(85, 85, 85, 0.5); /* Darkula border */
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - Darkula style */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1e293b;
+  background: #3C3F41; /* Darkula background */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(135deg, #CC7832, #6897BB);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  background: linear-gradient(135deg, #d4834a, #7ba8cc);
 }
 
 /* Smooth transitions for interactive elements */
@@ -84,10 +84,10 @@ body {
   transform: translateY(-2px);
 }
 
-/* Code block styling */
+/* Code block styling - Darkula style */
 .code-block {
-  background: linear-gradient(135deg, #1e293b, #334155);
-  border: 1px solid rgba(59, 130, 246, 0.2);
+  background: linear-gradient(135deg, #2B2B2B, #3C3F41);
+  border: 1px solid rgba(204, 120, 50, 0.2);
   border-radius: 12px;
   padding: 1.5rem;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;

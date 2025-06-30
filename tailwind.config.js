@@ -7,41 +7,54 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Darkula Orange - primary accent color
         primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#CC7832', // Main Darkula orange
+          600: '#ea580c',
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
         },
+        // Darkula Blue - secondary accent
         accent: {
-          50: '#fdf4ff',
-          100: '#fae8ff',
-          200: '#f5d0fe',
-          300: '#f0abfc',
-          400: '#e879f9',
-          500: '#d946ef',
-          600: '#c026d3',
-          700: '#a21caf',
-          800: '#86198f',
-          900: '#701a75',
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#6897BB', // Darkula blue
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e40af',
+          900: '#1e3a8a',
         },
-        vibe: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a',
+        // Darkula background and text colors
+        darkula: {
+          50: '#BBBBBB',  // Light text
+          100: '#A9B7C6', // Default text
+          200: '#808080', // Comments
+          300: '#555555', // Borders
+          400: '#4C5052', // Lighter backgrounds
+          500: '#3C3F41', // Default background
+          600: '#313335', // Darker background
+          700: '#2B2B2B', // Darkest background
+          800: '#214283', // Selection background
+          900: '#0D1117', // Deepest black
+        },
+        // Darkula green
+        success: {
+          500: '#6A8759', // Darkula green
+          600: '#5a7348',
+        },
+        // Darkula yellow
+        warning: {
+          500: '#FFC66D', // Darkula yellow
+          600: '#e6b05c',
         }
       },
       animation: {
@@ -59,10 +72,10 @@ export default {
         },
         'pulse-glow': {
           '0%': { 
-            boxShadow: '0 0 20px rgba(59, 130, 246, 0.4), 0 0 40px rgba(147, 51, 234, 0.2)' 
+            boxShadow: '0 0 20px rgba(204, 120, 50, 0.4), 0 0 40px rgba(104, 151, 187, 0.2)' 
           },
           '100%': { 
-            boxShadow: '0 0 40px rgba(59, 130, 246, 0.6), 0 0 80px rgba(147, 51, 234, 0.4)' 
+            boxShadow: '0 0 40px rgba(204, 120, 50, 0.6), 0 0 80px rgba(104, 151, 187, 0.4)' 
           },
         },
         'slide-up': {
@@ -79,20 +92,20 @@ export default {
         },
         'gradient-shift': {
           '0%, 100%': { 
-            background: 'linear-gradient(45deg, #3b82f6, #8b5cf6, #06b6d4)'
+            background: 'linear-gradient(45deg, #CC7832, #6897BB, #6A8759)'
           },
           '33%': { 
-            background: 'linear-gradient(45deg, #8b5cf6, #06b6d4, #3b82f6)'
+            background: 'linear-gradient(45deg, #6897BB, #6A8759, #CC7832)'
           },
           '66%': { 
-            background: 'linear-gradient(45deg, #06b6d4, #3b82f6, #8b5cf6)'
+            background: 'linear-gradient(45deg, #6A8759, #CC7832, #6897BB)'
           },
         },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'vibe-gradient': 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #06b6d4 100%)',
-        'hero-pattern': 'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0)',
+        'darkula-gradient': 'linear-gradient(135deg, #CC7832 0%, #6897BB 50%, #6A8759 100%)',
+        'hero-pattern': 'radial-gradient(circle at 1px 1px, rgba(169, 183, 198, 0.1) 1px, transparent 0)',
       },
       fontFamily: {
         'display': ['Inter', 'system-ui', 'sans-serif'],

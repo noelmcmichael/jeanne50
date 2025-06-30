@@ -50,7 +50,7 @@ const HowItWorks = () => {
   console.log('HowItWorks component rendered')
 
   return (
-    <section id="how-it-works" className="section-padding bg-gradient-to-b from-vibe-800 to-vibe-900">
+    <section id="how-it-works" className="section-padding bg-gradient-to-b from-darkula-600 to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -66,19 +66,19 @@ const HowItWorks = () => {
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             viewport={{ once: true }}
           >
-            <Sparkles className="w-4 h-4 text-primary-400" />
-            <span className="text-sm font-medium text-primary-300">
+            <Sparkles className="w-4 h-4 text-primary-500" />
+            <span className="text-sm font-medium text-primary-500">
               Simple Process
             </span>
           </motion.div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-vibe-100">How It</span>
+            <span className="text-darkula-50">How It</span>
             <br />
             <span className="gradient-text">Works</span>
           </h2>
           
-          <p className="text-xl text-vibe-300 max-w-3xl mx-auto">
+          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
             From installation to execution in four simple steps. 
             Transform your development workflow in minutes, not hours.
           </p>
@@ -98,7 +98,7 @@ const HowItWorks = () => {
               <div className={`${index % 2 === 1 ? 'lg:order-2' : ''} space-y-6`}>
                 <div className="flex items-center space-x-4">
                   <motion.div
-                    className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-primary-600 to-accent-600 text-white font-bold text-lg"
+                    className="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 font-bold text-lg"
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   >
@@ -109,15 +109,15 @@ const HowItWorks = () => {
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   >
-                    <step.icon className="w-6 h-6 text-primary-400" />
+                    <step.icon className="w-6 h-6 text-primary-500" />
                   </motion.div>
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-bold text-vibe-100 mb-3">
+                  <h3 className="text-2xl font-bold text-darkula-50 mb-3">
                     {step.title}
                   </h3>
-                  <p className="text-lg text-vibe-300 leading-relaxed mb-6">
+                  <p className="text-lg text-darkula-200 leading-relaxed mb-6">
                     {step.description}
                   </p>
                   
@@ -126,13 +126,13 @@ const HowItWorks = () => {
                     {step.details.map((detail, detailIndex) => (
                       <motion.li
                         key={detail}
-                        className="flex items-center space-x-2 text-vibe-400"
+                        className="flex items-center space-x-2 text-darkula-200"
                         initial={{ opacity: 0, x: -10 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ delay: (index * 0.2) + (detailIndex * 0.05) + 0.3 }}
                         viewport={{ once: true }}
                       >
-                        <CheckCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
+                        <CheckCircle className="w-4 h-4 text-success-500 flex-shrink-0" />
                         <span>{detail}</span>
                       </motion.li>
                     ))}
@@ -146,7 +146,7 @@ const HowItWorks = () => {
                     animate={{ y: [0, 10, 0] }}
                     transition={{ duration: 2, repeat: Infinity }}
                   >
-                    <ArrowRight className="w-6 h-6 text-primary-400 rotate-90" />
+                    <ArrowRight className="w-6 h-6 text-primary-500 rotate-90" />
                   </motion.div>
                 )}
               </div>
@@ -160,8 +160,8 @@ const HowItWorks = () => {
                 >
                   {/* Terminal header */}
                   <div className="flex items-center space-x-2 mb-4 pb-4 border-b border-vibe-600">
-                    <Terminal className="w-4 h-4 text-primary-400" />
-                    <span className="text-sm text-vibe-300">
+                    <Terminal className="w-4 h-4 text-primary-500" />
+                    <span className="text-sm text-darkula-200">
                       {index === 0 ? 'Terminal' : 
                        index === 1 ? 'IDE Planning Session' :
                        index === 2 ? 'Generated Output' : 'Implementation Guide'}
@@ -169,13 +169,13 @@ const HowItWorks = () => {
                   </div>
                   
                   {/* Code content */}
-                  <pre className="text-sm text-vibe-200 leading-relaxed overflow-x-auto">
+                  <pre className="text-sm text-darkula-100 leading-relaxed overflow-x-auto">
                     {step.code}
                   </pre>
 
                   {/* Animated cursor */}
                   <motion.div
-                    className="inline-block w-2 h-5 bg-primary-400 ml-1"
+                    className="inline-block w-2 h-5 bg-primary-500 ml-1"
                     animate={{ opacity: [1, 0, 1] }}
                     transition={{ duration: 1, repeat: Infinity }}
                   />
@@ -197,10 +197,10 @@ const HowItWorks = () => {
           viewport={{ once: true }}
         >
           <div className="glass rounded-xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-vibe-100 mb-3">
+            <h3 className="text-2xl font-bold text-darkula-50 mb-3">
               Ready to Transform Your Workflow?
             </h3>
-            <p className="text-vibe-300 mb-6">
+            <p className="text-darkula-200 mb-6">
               Join the inline planning revolution and never switch contexts again.
             </p>
             <motion.button
@@ -210,7 +210,7 @@ const HowItWorks = () => {
                   element.scrollIntoView({ behavior: 'smooth' })
                 }
               }}
-              className="px-8 py-4 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold text-lg hover:from-primary-700 hover:to-accent-700 interactive pulse-glow"
+              className="px-8 py-4 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 font-semibold text-lg hover:from-primary-600 hover:to-accent-600 interactive pulse-glow"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

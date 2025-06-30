@@ -139,7 +139,7 @@ Develop a secure email/password authentication system for a web application supp
   console.log('CodeExample component rendered, activeTab:', activeTab)
 
   return (
-    <section className="section-padding bg-gradient-to-b from-vibe-900 to-vibe-800">
+    <section className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-600">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -155,19 +155,19 @@ Develop a secure email/password authentication system for a web application supp
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             viewport={{ once: true }}
           >
-            <Terminal className="w-4 h-4 text-primary-400" />
-            <span className="text-sm font-medium text-primary-300">
+            <Terminal className="w-4 h-4 text-primary-500" />
+            <span className="text-sm font-medium text-primary-500">
               See It In Action
             </span>
           </motion.div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-vibe-100">From Idea to</span>
+            <span className="text-darkula-50">From Idea to</span>
             <br />
             <span className="gradient-text">Implementation</span>
           </h2>
           
-          <p className="text-xl text-vibe-300 max-w-3xl mx-auto">
+          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
             Watch how a simple conversation transforms into comprehensive documentation 
             and actionable implementation plans.
           </p>
@@ -189,8 +189,8 @@ Develop a secure email/password authentication system for a web application supp
                   onClick={() => setActiveTab(tab.id)}
                   className={`flex items-center space-x-2 px-4 py-2 rounded-md transition-all duration-300 ${
                     activeTab === tab.id
-                      ? 'bg-gradient-to-r from-primary-600 to-accent-600 text-white'
-                      : 'text-vibe-300 hover:text-vibe-100 hover:bg-vibe-700/50'
+                      ? 'bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700'
+                      : 'text-darkula-200 hover:text-darkula-50 hover:bg-darkula-600/50'
                   }`}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -220,38 +220,38 @@ Develop a secure email/password authentication system for a web application supp
                       return <IconComponent className="w-5 h-5 text-white" />
                     })()}
                   </div>
-                  <h3 className="text-xl font-semibold text-vibe-100">
+                  <h3 className="text-xl font-semibold text-darkula-50">
                     {examples[activeTab].title}
                   </h3>
                 </div>
                 
-                <p className="text-vibe-300 mb-6 leading-relaxed">
+                <p className="text-darkula-200 mb-6 leading-relaxed">
                   {examples[activeTab].description}
                 </p>
 
                 {/* Features */}
                 <div className="space-y-3">
-                  <h4 className="font-medium text-vibe-200">Key Features:</h4>
+                  <h4 className="font-medium text-darkula-100">Key Features:</h4>
                   {examples[activeTab].highlight.map((feature, index) => (
                     <motion.div
                       key={feature}
-                      className="flex items-center space-x-2 text-sm text-vibe-400"
+                      className="flex items-center space-x-2 text-sm text-darkula-200"
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: index * 0.1 }}
                     >
-                      <CheckCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-success-500 flex-shrink-0" />
                       <span>{feature}</span>
                     </motion.div>
                   ))}
                 </div>
 
                 {/* Navigation */}
-                <div className="flex justify-between items-center mt-6 pt-4 border-t border-vibe-700">
+                <div className="flex justify-between items-center mt-6 pt-4 border-t border-darkula-400">
                   <motion.button
                     onClick={() => setActiveTab(Math.max(0, activeTab - 1))}
                     disabled={activeTab === 0}
-                    className="flex items-center space-x-1 text-sm text-vibe-400 hover:text-vibe-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="flex items-center space-x-1 text-sm text-darkula-200 hover:text-darkula-100 disabled:opacity-50 disabled:cursor-not-allowed"
                     whileHover={{ x: -3 }}
                   >
                     <ArrowRight className="w-4 h-4 rotate-180" />
@@ -261,7 +261,7 @@ Develop a secure email/password authentication system for a web application supp
                   <motion.button
                     onClick={() => setActiveTab(Math.min(tabs.length - 1, activeTab + 1))}
                     disabled={activeTab === tabs.length - 1}
-                    className="flex items-center space-x-1 text-sm text-vibe-400 hover:text-vibe-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="flex items-center space-x-1 text-sm text-darkula-200 hover:text-darkula-100 disabled:opacity-50 disabled:cursor-not-allowed"
                     whileHover={{ x: 3 }}
                   >
                     <span>Next</span>
@@ -283,8 +283,8 @@ Develop a secure email/password authentication system for a web application supp
                 {/* Terminal header */}
                 <div className="flex items-center justify-between mb-4 pb-4 border-b border-vibe-600">
                   <div className="flex items-center space-x-2">
-                    <Terminal className="w-4 h-4 text-primary-400" />
-                    <span className="text-sm text-vibe-300">
+                    <Terminal className="w-4 h-4 text-primary-500" />
+                    <span className="text-sm text-darkula-200">
                       VibeCoder Stack Planner
                     </span>
                   </div>
@@ -304,7 +304,7 @@ Develop a secure email/password authentication system for a web application supp
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <pre className="text-sm text-vibe-200 leading-relaxed overflow-x-auto whitespace-pre-wrap">
+                    <pre className="text-sm text-darkula-100 leading-relaxed overflow-x-auto whitespace-pre-wrap">
                       {examples[activeTab].code}
                     </pre>
                   </motion.div>
@@ -312,7 +312,7 @@ Develop a secure email/password authentication system for a web application supp
 
                 {/* Animated cursor */}
                 <motion.div
-                  className="inline-block w-2 h-5 bg-primary-400 ml-1"
+                  className="inline-block w-2 h-5 bg-primary-500 ml-1"
                   animate={{ opacity: [1, 0, 1] }}
                   transition={{ duration: 1, repeat: Infinity }}
                 />
@@ -334,13 +334,13 @@ Develop a secure email/password authentication system for a web application supp
         >
           <div className="glass rounded-xl p-8 max-w-2xl mx-auto">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <Play className="w-5 h-5 text-primary-400" />
-              <span className="text-primary-300 font-medium">Try it yourself</span>
+              <Play className="w-5 h-5 text-primary-500" />
+              <span className="text-primary-500 font-medium">Try it yourself</span>
             </div>
-            <h3 className="text-2xl font-bold text-vibe-100 mb-3">
+            <h3 className="text-2xl font-bold text-darkula-50 mb-3">
               Experience Inline Planning
             </h3>
-            <p className="text-vibe-300 mb-6">
+            <p className="text-darkula-200 mb-6">
               See how natural conversations become comprehensive project plans.
             </p>
             <motion.button
@@ -350,7 +350,7 @@ Develop a secure email/password authentication system for a web application supp
                   element.scrollIntoView({ behavior: 'smooth' })
                 }
               }}
-              className="px-6 py-3 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold hover:from-primary-700 hover:to-accent-700 interactive"
+              className="px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 font-semibold hover:from-primary-600 hover:to-accent-600 interactive"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

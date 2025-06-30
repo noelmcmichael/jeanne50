@@ -18,42 +18,42 @@ const Features = () => {
       icon: MessageSquare,
       title: "Interactive Planning Sessions",
       description: "Engage in natural conversations about your project requirements directly in your IDE.",
-      gradient: "from-blue-500 to-cyan-500",
+      gradient: "from-primary-500 to-accent-500",
       benefits: ["Natural language planning", "Context-aware questions", "Real-time clarification"]
     },
     {
       icon: FileText,
       title: "Automatic PRD Generation",
       description: "Transform planning conversations into comprehensive Product Requirements Documents instantly.",
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-accent-500 to-warning-500",
       benefits: ["Professional documentation", "Structured format", "Ready to share"]
     },
     {
       icon: GitBranch,
       title: "Implementation Roadmaps",
       description: "Generate detailed implementation plans with task breakdowns and complexity scoring.",
-      gradient: "from-green-500 to-emerald-500",
+      gradient: "from-success-500 to-primary-500",
       benefits: ["Step-by-step guidance", "Complexity assessment", "Time estimation"]
     },
     {
       icon: Code2,
       title: "Code-First Integration",
       description: "Works seamlessly with your existing development workflow and favorite coding tools.",
-      gradient: "from-orange-500 to-red-500",
+      gradient: "from-warning-500 to-primary-500",
       benefits: ["IDE integration", "MCP protocol", "Zero setup friction"]
     },
     {
       icon: Target,
       title: "Smart Feature Clarification",
       description: "Intelligent questioning system that helps you define requirements thoroughly.",
-      gradient: "from-indigo-500 to-purple-500",
+      gradient: "from-accent-500 to-success-500",
       benefits: ["Guided discovery", "Missing requirement detection", "Stakeholder alignment"]
     },
     {
       icon: Zap,
       title: "Lightning Fast Setup",
       description: "Get started in seconds with our streamlined MCP server installation process.",
-      gradient: "from-yellow-500 to-orange-500",
+      gradient: "from-warning-500 to-primary-500",
       benefits: ["One-command install", "Auto-configuration", "Instant activation"]
     }
   ]
@@ -61,7 +61,7 @@ const Features = () => {
   console.log('Features component rendered')
 
   return (
-    <section id="features" className="section-padding bg-gradient-to-b from-vibe-900 to-vibe-800">
+    <section id="features" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-600">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -77,8 +77,8 @@ const Features = () => {
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             viewport={{ once: true }}
           >
-            <Users className="w-4 h-4 text-primary-400" />
-            <span className="text-sm font-medium text-primary-300">
+            <Users className="w-4 h-4 text-primary-500" />
+            <span className="text-sm font-medium text-primary-500">
               Built for VibeCoders
             </span>
           </motion.div>
@@ -86,10 +86,10 @@ const Features = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Powerful Features</span>
             <br />
-            <span className="text-vibe-100">For Modern Development</span>
+            <span className="text-darkula-50">For Modern Development</span>
           </h2>
           
-          <p className="text-xl text-vibe-300 max-w-3xl mx-auto">
+          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
             Everything you need to plan, document, and execute your software projects 
             without ever leaving your development environment.
           </p>
@@ -116,11 +116,11 @@ const Features = () => {
                 </motion.div>
 
                 {/* Content */}
-                <h3 className="text-xl font-semibold text-vibe-100 mb-3 group-hover:text-white transition-colors">
+                <h3 className="text-xl font-semibold text-darkula-50 mb-3 group-hover:text-darkula-50 transition-colors">
                   {feature.title}
                 </h3>
                 
-                <p className="text-vibe-300 mb-4 leading-relaxed">
+                <p className="text-darkula-200 mb-4 leading-relaxed">
                   {feature.description}
                 </p>
 
@@ -129,13 +129,13 @@ const Features = () => {
                   {feature.benefits.map((benefit, benefitIndex) => (
                     <motion.li
                       key={benefit}
-                      className="flex items-center space-x-2 text-sm text-vibe-400"
+                      className="flex items-center space-x-2 text-sm text-darkula-200"
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ delay: (index * 0.1) + (benefitIndex * 0.05) + 0.3 }}
                       viewport={{ once: true }}
                     >
-                      <CheckCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-success-500 flex-shrink-0" />
                       <span>{benefit}</span>
                     </motion.li>
                   ))}
@@ -161,13 +161,13 @@ const Features = () => {
         >
           <div className="glass rounded-xl p-8 max-w-2xl mx-auto">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <Clock className="w-5 h-5 text-primary-400" />
-              <span className="text-primary-300 font-medium">Ready in minutes</span>
+              <Clock className="w-5 h-5 text-primary-500" />
+              <span className="text-primary-500 font-medium">Ready in minutes</span>
             </div>
-            <h3 className="text-2xl font-bold text-vibe-100 mb-3">
+            <h3 className="text-2xl font-bold text-darkula-50 mb-3">
               Experience the Future of Planning
             </h3>
-            <p className="text-vibe-300 mb-6">
+            <p className="text-darkula-200 mb-6">
               Join thousands of developers who've transformed their workflow with inline planning.
             </p>
             <motion.button
@@ -177,7 +177,7 @@ const Features = () => {
                   element.scrollIntoView({ behavior: 'smooth' })
                 }
               }}
-              className="px-6 py-3 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold hover:from-primary-700 hover:to-accent-700 interactive"
+              className="px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 font-semibold hover:from-primary-600 hover:to-accent-600 interactive"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

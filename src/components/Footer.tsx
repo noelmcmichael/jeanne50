@@ -49,7 +49,7 @@ const Footer = () => {
   console.log('Footer component rendered')
 
   return (
-    <footer className="bg-gradient-to-b from-vibe-800 to-vibe-900 border-t border-vibe-700">
+    <footer className="bg-gradient-to-b from-darkula-600 to-darkula-700 border-t border-darkula-400">
       <div className="container-custom section-padding">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
@@ -68,7 +68,7 @@ const Footer = () => {
               </span>
             </motion.div>
             
-            <p className="text-vibe-300 mb-6 leading-relaxed">
+            <p className="text-darkula-200 mb-6 leading-relaxed">
               Revolutionary MCP server that brings intelligent software planning 
               directly into your coding environment. Plan where you code.
             </p>
@@ -78,7 +78,7 @@ const Footer = () => {
                 href="https://github.com/crazyrabbitLTC/mcp-vibecoder"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg text-vibe-400 hover:text-white hover:bg-vibe-700 transition-colors"
+                className="p-2 rounded-lg text-darkula-200 hover:text-darkula-50 hover:bg-darkula-600 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >

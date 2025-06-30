@@ -12,7 +12,7 @@ function App() {
   console.log('App component rendered')
   
   return (
-    <div className="min-h-screen bg-vibe-900 text-vibe-50">
+    <div className="min-h-screen bg-darkula-700 text-darkula-100">
       {/* Background pattern */}
       <div className="fixed inset-0 hero-pattern opacity-30 pointer-events-none" />
       

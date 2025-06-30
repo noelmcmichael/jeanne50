@@ -77,8 +77,8 @@ const Hero = () => {
             animate={{ scale: 1 }}
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
           >
-            <Sparkles className="w-4 h-4 text-primary-400" />
-            <span className="text-sm font-medium text-primary-300">
+            <Sparkles className="w-4 h-4 text-primary-500" />
+            <span className="text-sm font-medium text-primary-500">
               Revolutionary MCP Server
             </span>
           </motion.div>
@@ -92,18 +92,18 @@ const Hero = () => {
           >
             <span className="gradient-text">Plan Directly</span>
             <br />
-            <span className="text-vibe-100">In Your Code</span>
+            <span className="text-darkula-50">In Your Code</span>
           </motion.h1>
 
           {/* Subtitle */}
           <motion.p
-            className="text-xl md:text-2xl text-vibe-300 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-darkula-200 mb-8 max-w-3xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
             Stop switching between planning tools and your IDE. VibeCoder Stack Planner brings 
-            <span className="text-primary-400 font-semibold"> intelligent software planning </span>
+            <span className="text-primary-500 font-semibold"> intelligent software planning </span>
             directly into your coding environment.
           </motion.p>
 
@@ -116,7 +116,7 @@ const Hero = () => {
           >
             <motion.button
               onClick={scrollToGetStarted}
-              className="flex items-center space-x-2 px-8 py-4 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold text-lg hover:from-primary-700 hover:to-accent-700 interactive shadow-lg pulse-glow"
+              className="flex items-center space-x-2 px-8 py-4 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 font-semibold text-lg hover:from-primary-600 hover:to-accent-600 interactive shadow-lg pulse-glow"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -127,7 +127,7 @@ const Hero = () => {
             
             <motion.button
               onClick={scrollToFeatures}
-              className="flex items-center space-x-2 px-8 py-4 rounded-lg border border-primary-500/50 text-primary-300 font-semibold text-lg hover:bg-primary-500/10 interactive"
+              className="flex items-center space-x-2 px-8 py-4 rounded-lg border border-primary-500/50 text-primary-500 font-semibold text-lg hover:bg-primary-500/10 interactive"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -169,8 +169,8 @@ const Hero = () => {
                 whileHover={{ y: -5 }}
               >
                 <div className="text-3xl mb-3">{benefit.icon}</div>
-                <h3 className="font-semibold text-vibe-100 mb-2">{benefit.title}</h3>
-                <p className="text-sm text-vibe-400">{benefit.description}</p>
+                <h3 className="font-semibold text-darkula-50 mb-2">{benefit.title}</h3>
+                <p className="text-sm text-darkula-200">{benefit.description}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -183,9 +183,9 @@ const Hero = () => {
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
-        <div className="w-6 h-10 border-2 border-primary-400 rounded-full flex justify-center">
+        <div className="w-6 h-10 border-2 border-primary-500 rounded-full flex justify-center">
           <motion.div
-            className="w-1 h-2 bg-primary-400 rounded-full mt-2"
+            className="w-1 h-2 bg-primary-500 rounded-full mt-2"
             animate={{ y: [0, 16, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
           />

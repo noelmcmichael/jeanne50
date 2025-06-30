@@ -49,7 +49,7 @@ const Navigation = () => {
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
           >
             <div className="p-2 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500">
-              <Code2 className="w-6 h-6 text-white" />
+              <Code2 className="w-6 h-6 text-darkula-700" />
             </div>
             <span className="text-xl font-bold gradient-text">
               VibeCoder Stack Planner
@@ -62,7 +62,7 @@ const Navigation = () => {
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-vibe-300 hover:text-primary-400 interactive"
+                className="text-darkula-200 hover:text-primary-500 interactive"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -74,7 +74,7 @@ const Navigation = () => {
               href="https://github.com/crazyrabbitLTC/mcp-vibecoder"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 text-white hover:from-primary-700 hover:to-accent-700 interactive"
+              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 hover:from-primary-600 hover:to-accent-600 interactive"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -86,7 +86,7 @@ const Navigation = () => {
 
           {/* Mobile menu button */}
           <motion.button
-            className="md:hidden p-2 rounded-lg text-vibe-300 hover:text-white hover:bg-vibe-800"
+            className="md:hidden p-2 rounded-lg text-darkula-200 hover:text-darkula-50 hover:bg-darkula-600"
             onClick={() => setIsOpen(!isOpen)}
             whileTap={{ scale: 0.95 }}
           >
@@ -109,7 +109,7 @@ const Navigation = () => {
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="block w-full text-left text-vibe-300 hover:text-primary-400 py-2"
+                className="block w-full text-left text-darkula-200 hover:text-primary-500 py-2"
                 whileHover={{ x: 10 }}
               >
                 {item.name}
@@ -119,7 +119,7 @@ const Navigation = () => {
               href="https://github.com/crazyrabbitLTC/mcp-vibecoder"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 text-white"
+              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700"
               whileHover={{ scale: 1.02 }}
             >
               <Github className="w-4 h-4" />

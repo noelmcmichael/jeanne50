@@ -88,7 +88,7 @@ const GetStarted = () => {
   console.log('GetStarted component rendered')
 
   return (
-    <section id="get-started" className="section-padding bg-gradient-to-b from-vibe-900 to-vibe-800">
+    <section id="get-started" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-600">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -104,8 +104,8 @@ const GetStarted = () => {
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             viewport={{ once: true }}
           >
-            <Zap className="w-4 h-4 text-primary-400" />
-            <span className="text-sm font-medium text-primary-300">
+            <Zap className="w-4 h-4 text-primary-500" />
+            <span className="text-sm font-medium text-primary-500">
               Quick Setup
             </span>
           </motion.div>
@@ -113,10 +113,10 @@ const GetStarted = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Get Started</span>
             <br />
-            <span className="text-vibe-100">In Minutes</span>
+            <span className="text-darkula-50">In Minutes</span>
           </h2>
           
-          <p className="text-xl text-vibe-300 max-w-3xl mx-auto">
+          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
             Join thousands of developers who've transformed their workflow. 
             Setup is simple, the impact is immediate.
           </p>
