@@ -139,7 +139,7 @@ Develop a secure email/password authentication system for a web application supp
   console.log('CodeExample component rendered, activeTab:', activeTab)
 
   return (
-    <section className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-600">
+    <section className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"

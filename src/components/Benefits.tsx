@@ -1,5 +1,4 @@
 
-import React from 'react'
 import { motion } from 'framer-motion'
 import { 
   Zap, 
@@ -74,7 +73,7 @@ const Benefits = () => {
   console.log('Benefits component rendered')
 
   return (
-    <section id="benefits" className="section-padding bg-gradient-to-b from-darkula-600 to-darkula-700">
+    <section id="benefits" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -182,74 +181,62 @@ const Benefits = () => {
           viewport={{ once: true }}
         >
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-vibe-100 mb-4">
+            <h3 className="text-3xl font-bold text-darkula-50 mb-4">
               Traditional Planning vs <span className="gradient-text">VibeCoder</span>
             </h3>
-            <p className="text-lg text-vibe-300">
+            <p className="text-lg text-darkula-200">
               See the dramatic difference in development workflow efficiency
             </p>
           </div>
 
-          <div className="glass rounded-xl overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-0">
-              {/* Header */}
-              <div className="bg-vibe-800 p-4 font-semibold text-vibe-200 border-b border-vibe-600">
-                Traditional Way
+          <div className="bg-darkula-600 rounded-xl border border-darkula-300 overflow-hidden shadow-xl">
+            {/* Header Row */}
+            <div className="grid grid-cols-3 md:grid-cols-4 gap-0 border-b border-darkula-300">
+              <div className="bg-darkula-700 p-4 text-center">
+                <h4 className="font-semibold text-darkula-200 text-sm">Traditional Way</h4>
               </div>
-              <div className="bg-gradient-to-r from-primary-600 to-accent-600 p-4 font-semibold text-white border-b border-primary-500">
-                VibeCoder Way
+              <div className="bg-gradient-to-r from-primary-500 to-accent-500 p-4 text-center">
+                <h4 className="font-semibold text-darkula-900 text-sm">VibeCoder Way</h4>
               </div>
-              <div className="bg-vibe-700 p-4 font-semibold text-vibe-200 border-b border-vibe-600">
-                Improvement
+              <div className="bg-darkula-700 p-4 text-center">
+                <h4 className="font-semibold text-darkula-200 text-sm">Improvement</h4>
               </div>
-              <div className="bg-vibe-800 p-4 font-semibold text-vibe-200 border-b border-vibe-600 md:hidden">
-                Impact
+              <div className="bg-darkula-700 p-4 text-center md:hidden">
+                <h4 className="font-semibold text-darkula-200 text-sm">Impact</h4>
               </div>
-
-              {/* Rows */}
-              {comparisonData.map((row, index) => (
-                <React.Fragment key={index}>
-                  <motion.div
-                    className="p-4 text-vibe-300 border-b border-vibe-700 last:border-b-0"
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                  >
-                    {row.traditional}
-                  </motion.div>
-                  <motion.div
-                    className="p-4 text-vibe-100 font-medium border-b border-vibe-700 last:border-b-0 bg-gradient-to-r from-primary-500/10 to-accent-500/10"
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: index * 0.1 + 0.1 }}
-                    viewport={{ once: true }}
-                  >
-                    {row.vibecoder}
-                  </motion.div>
-                  <motion.div
-                    className="p-4 text-green-400 font-semibold border-b border-vibe-700 last:border-b-0"
-                    initial={{ opacity: 0, x: 20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ delay: index * 0.1 + 0.2 }}
-                    viewport={{ once: true }}
-                  >
-                    {row.improvement}
-                  </motion.div>
-                  <motion.div
-                    className="p-4 md:hidden border-b border-vibe-700 last:border-b-0"
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ delay: index * 0.1 + 0.3 }}
-                    viewport={{ once: true }}
-                  >
-                    <div className="flex items-center justify-center">
-                      <ArrowRight className="w-5 h-5 text-green-400" />
-                    </div>
-                  </motion.div>
-                </React.Fragment>
-              ))}
             </div>
+
+            {/* Content Rows */}
+            {comparisonData.map((row, index) => (
+              <motion.div
+                key={index}
+                className="grid grid-cols-3 md:grid-cols-4 gap-0 border-b border-darkula-400 last:border-b-0 hover:bg-darkula-500/50 transition-colors"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1, duration: 0.5 }}
+                viewport={{ once: true }}
+              >
+                {/* Traditional Way */}
+                <div className="p-4 bg-darkula-600">
+                  <p className="text-darkula-200 text-sm leading-relaxed">{row.traditional}</p>
+                </div>
+                
+                {/* VibeCoder Way */}
+                <div className="p-4 bg-gradient-to-r from-primary-500/10 to-accent-500/10 border-l border-r border-darkula-300">
+                  <p className="text-darkula-50 font-medium text-sm leading-relaxed">{row.vibecoder}</p>
+                </div>
+                
+                {/* Improvement */}
+                <div className="p-4 bg-darkula-600">
+                  <p className="text-success-500 font-bold text-sm">{row.improvement}</p>
+                </div>
+                
+                {/* Mobile Impact Arrow */}
+                <div className="p-4 bg-darkula-600 flex items-center justify-center md:hidden">
+                  <ArrowRight className="w-4 h-4 text-success-500" />
+                </div>
+              </motion.div>
+            ))}
           </div>
         </motion.div>
 

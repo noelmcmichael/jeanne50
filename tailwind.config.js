@@ -39,10 +39,10 @@ export default {
           100: '#A9B7C6', // Default text
           200: '#808080', // Comments
           300: '#555555', // Borders
-          400: '#4C5052', // Lighter backgrounds
-          500: '#3C3F41', // Default background
-          600: '#313335', // Darker background
-          700: '#2B2B2B', // Darkest background
+          400: '#3C3F41', // Lighter backgrounds
+          500: '#313335', // Default background
+          600: '#2B2B2B', // Darker background
+          700: '#1E1E1E', // Darkest background
           800: '#214283', // Selection background
           900: '#0D1117', // Deepest black
         },

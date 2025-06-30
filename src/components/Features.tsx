@@ -61,7 +61,7 @@ const Features = () => {
   console.log('Features component rendered')
 
   return (
-    <section id="features" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-600">
+    <section id="features" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"

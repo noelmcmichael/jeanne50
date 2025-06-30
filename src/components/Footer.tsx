@@ -49,7 +49,7 @@ const Footer = () => {
   console.log('Footer component rendered')
 
   return (
-    <footer className="bg-gradient-to-b from-darkula-600 to-darkula-700 border-t border-darkula-400">
+    <footer className="bg-gradient-to-b from-darkula-700 to-darkula-700 border-t border-darkula-400">
       <div className="container-custom section-padding">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">

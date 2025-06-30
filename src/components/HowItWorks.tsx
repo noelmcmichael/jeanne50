@@ -50,7 +50,7 @@ const HowItWorks = () => {
   console.log('HowItWorks component rendered')
 
   return (
-    <section id="how-it-works" className="section-padding bg-gradient-to-b from-darkula-600 to-darkula-700">
+    <section id="how-it-works" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
