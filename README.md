@@ -4,7 +4,7 @@
 
 ## 🌐 Live Website
 
-**[https://vibecoder-stack-planner.netlify.app](https://vibecoder-stack-planner.netlify.app)**
+**[https://vibecoder-planner-site.netlify.app](https://vibecoder-planner-site.netlify.app)**
 
 Experience the future of software planning with our beautiful, interactive website showcasing the power of inline planning.
 
