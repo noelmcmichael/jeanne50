@@ -2,6 +2,12 @@
 
 > Revolutionary MCP server that brings intelligent software planning directly into your coding environment.
 
+## 🌐 Live Website
+
+**[https://vibecoder-stack-planner.netlify.app](https://vibecoder-stack-planner.netlify.app)**
+
+Experience the future of software planning with our beautiful, interactive website showcasing the power of inline planning.
+
 ## ✨ Features
 
 - **Zero Context Switching**: Plan directly in your IDE without leaving your development environment
