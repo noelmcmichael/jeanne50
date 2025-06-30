@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+/* Custom utility classes */
+.section-padding {
+  padding: 4rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding: 4rem 3rem;
+  }
+}
+
+.container-custom {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease-in-out infinite;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+/* Smooth transitions for interactive elements */
+.interactive {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.interactive:hover {
+  transform: translateY(-2px);
+}
+
+/* Code block styling */
+.code-block {
+  background: linear-gradient(135deg, #1e293b, #334155);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  overflow-x: auto;
+}
+
+/* Floating animation delays for staggered effect */
+.float-delay-1 {
+  animation-delay: 0.5s;
+}
+
+.float-delay-2 {
+  animation-delay: 1s;
+}
+
+.float-delay-3 {
+  animation-delay: 1.5s;
+}
