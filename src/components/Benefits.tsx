@@ -7,8 +7,7 @@ import {
   Brain, 
   TrendingUp,
   Heart,
-  CheckCircle,
-  ArrowRight
+  CheckCircle
 } from 'lucide-react'
 
 const Benefits = () => {
@@ -40,7 +39,7 @@ const Benefits = () => {
     {
       icon: Users,
       title: "Perfect for Teams",
-      description: "Whether you're a solo developer or part of a large team, VibeCoder adapts to your workflow.",
+      description: "Whether you're a solo developer or part of a large team, VibePlan adapts to your workflow.",
       stats: "Used by 1000+ teams",
       color: "from-warning-500 to-primary-500",
       features: ["Scalable collaboration", "Shared understanding", "Clear communication"]
@@ -50,30 +49,26 @@ const Benefits = () => {
   const comparisonData = [
     {
       traditional: "Switch between multiple tools",
-      vibecoder: "Everything in your IDE",
-      improvement: "95% less tool switching"
+      vibeplan: "Everything in your IDE"
     },
     {
       traditional: "Hours of planning meetings", 
-      vibecoder: "Minutes of conversation",
-      improvement: "90% time savings"
+      vibeplan: "Minutes of conversation"
     },
     {
       traditional: "Manual documentation",
-      vibecoder: "Auto-generated PRDs", 
-      improvement: "100% documentation accuracy"
+      vibeplan: "Auto-generated PRDs"
     },
     {
       traditional: "Requirements often missed",
-      vibecoder: "AI ensures completeness",
-      improvement: "Zero missed requirements"
+      vibeplan: "AI ensures completeness"
     }
   ]
 
   console.log('Benefits component rendered')
 
   return (
-    <section id="benefits" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-700">
+    <section id="benefits" className="section-padding bg-gradient-to-b from-gray-50 to-white dark:from-darkula-700 dark:to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -96,12 +91,12 @@ const Benefits = () => {
           </motion.div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-darkula-50">Why Developers</span>
+            <span className="text-gray-900 dark:text-darkula-50">Why Developers</span>
             <br />
-            <span className="gradient-text">Love VibeCoder</span>
+            <span className="gradient-text">Love VibePlan</span>
           </h2>
           
-          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 dark:text-darkula-200 max-w-3xl mx-auto">
             Join thousands of developers who've transformed their workflow with inline planning. 
             Experience the benefits that matter most to modern development teams.
           </p>
@@ -118,7 +113,7 @@ const Benefits = () => {
               transition={{ delay: index * 0.1, duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <div className="glass rounded-xl p-8 h-full hover:bg-white/10 interactive group-hover:shadow-2xl">
+              <div className="glass rounded-xl p-8 h-full hover:bg-gray-100/50 dark:hover:bg-white/10 interactive group-hover:shadow-2xl">
                 {/* Icon and stats */}
                 <div className="flex items-start justify-between mb-6">
                   <motion.div
@@ -133,16 +128,16 @@ const Benefits = () => {
                     <div className="text-2xl font-bold gradient-text">
                       {benefit.stats}
                     </div>
-                    <div className="text-xs text-vibe-400">improvement</div>
+                    <div className="text-xs text-gray-700 dark:text-vibe-400">improvement</div>
                   </div>
                 </div>
 
                 {/* Content */}
-                <h3 className="text-2xl font-bold text-darkula-50 mb-4 group-hover:text-darkula-50 transition-colors">
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-darkula-50 mb-4 group-hover:text-gray-900 dark:group-hover:text-darkula-50 transition-colors">
                   {benefit.title}
                 </h3>
                 
-                <p className="text-darkula-200 mb-6 leading-relaxed">
+                <p className="text-gray-800 dark:text-darkula-200 mb-6 leading-relaxed">
                   {benefit.description}
                 </p>
 
@@ -151,7 +146,7 @@ const Benefits = () => {
                   {benefit.features.map((feature, featureIndex) => (
                     <motion.li
                       key={feature}
-                      className="flex items-center space-x-2 text-sm text-darkula-200"
+                      className="flex items-center space-x-2 text-sm text-gray-800 dark:text-darkula-200"
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ delay: (index * 0.1) + (featureIndex * 0.05) + 0.3 }}
@@ -181,28 +176,22 @@ const Benefits = () => {
           viewport={{ once: true }}
         >
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-darkula-50 mb-4">
-              Traditional Planning vs <span className="gradient-text">VibeCoder</span>
+            <h3 className="text-3xl font-bold text-gray-900 dark:text-darkula-50 mb-4">
+              Traditional Planning vs <span className="gradient-text">VibePlan</span>
             </h3>
-            <p className="text-lg text-darkula-200">
+            <p className="text-lg text-gray-700 dark:text-darkula-200">
               See the dramatic difference in development workflow efficiency
             </p>
           </div>
 
-          <div className="bg-darkula-600 rounded-xl border border-darkula-300 overflow-hidden shadow-xl">
+          <div className="bg-white dark:bg-darkula-600 rounded-xl border border-gray-200 dark:border-darkula-300 overflow-hidden shadow-xl">
             {/* Header Row */}
-            <div className="grid grid-cols-3 md:grid-cols-4 gap-0 border-b border-darkula-300">
-              <div className="bg-darkula-700 p-4 text-center">
-                <h4 className="font-semibold text-darkula-200 text-sm">Traditional Way</h4>
+            <div className="grid grid-cols-2 gap-0 border-b border-gray-200 dark:border-darkula-300">
+              <div className="bg-gray-100 dark:bg-darkula-700 p-4 text-center">
+                <h4 className="font-semibold text-gray-800 dark:text-darkula-200 text-sm">Traditional Way</h4>
               </div>
-              <div className="bg-gradient-to-r from-primary-500 to-accent-500 p-4 text-center">
-                <h4 className="font-semibold text-darkula-900 text-sm">VibeCoder Way</h4>
-              </div>
-              <div className="bg-darkula-700 p-4 text-center">
-                <h4 className="font-semibold text-darkula-200 text-sm">Improvement</h4>
-              </div>
-              <div className="bg-darkula-700 p-4 text-center md:hidden">
-                <h4 className="font-semibold text-darkula-200 text-sm">Impact</h4>
+              <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-4 text-center">
+                <h4 className="font-semibold text-white text-sm">VibePlan Way</h4>
               </div>
             </div>
 
@@ -210,30 +199,20 @@ const Benefits = () => {
             {comparisonData.map((row, index) => (
               <motion.div
                 key={index}
-                className="grid grid-cols-3 md:grid-cols-4 gap-0 border-b border-darkula-400 last:border-b-0 hover:bg-darkula-500/50 transition-colors"
+                className="grid grid-cols-2 gap-0 border-b border-gray-200 dark:border-darkula-400 last:border-b-0 hover:bg-gray-50 dark:hover:bg-darkula-500/50 transition-colors"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1, duration: 0.5 }}
                 viewport={{ once: true }}
               >
                 {/* Traditional Way */}
-                <div className="p-4 bg-darkula-600">
-                  <p className="text-darkula-200 text-sm leading-relaxed">{row.traditional}</p>
+                <div className="p-4 bg-gray-50 dark:bg-darkula-600">
+                  <p className="text-gray-800 dark:text-darkula-200 text-sm leading-relaxed">{row.traditional}</p>
                 </div>
                 
-                {/* VibeCoder Way */}
-                <div className="p-4 bg-gradient-to-r from-primary-500/10 to-accent-500/10 border-l border-r border-darkula-300">
-                  <p className="text-darkula-50 font-medium text-sm leading-relaxed">{row.vibecoder}</p>
-                </div>
-                
-                {/* Improvement */}
-                <div className="p-4 bg-darkula-600">
-                  <p className="text-success-500 font-bold text-sm">{row.improvement}</p>
-                </div>
-                
-                {/* Mobile Impact Arrow */}
-                <div className="p-4 bg-darkula-600 flex items-center justify-center md:hidden">
-                  <ArrowRight className="w-4 h-4 text-success-500" />
+                {/* VibePlan Way */}
+                <div className="p-4 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-primary-500/10 dark:to-accent-500/10 border-l border-gray-200 dark:border-darkula-300">
+                  <p className="text-gray-900 dark:text-darkula-50 font-medium text-sm leading-relaxed">{row.vibeplan}</p>
                 </div>
               </motion.div>
             ))}
@@ -272,17 +251,17 @@ const Benefits = () => {
                   <div className="text-3xl font-bold gradient-text mb-2">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-vibe-400">
+                  <div className="text-sm text-gray-700 dark:text-vibe-400">
                     {stat.label}
                   </div>
                 </motion.div>
               ))}
             </div>
 
-            <h3 className="text-2xl font-bold text-vibe-100 mb-3">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-vibe-100 mb-3">
               Ready to Join the Revolution?
             </h3>
-            <p className="text-vibe-300 mb-6">
+            <p className="text-gray-800 dark:text-vibe-300 mb-6">
               Experience the future of software planning today.
             </p>
             <motion.button

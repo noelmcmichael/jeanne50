@@ -17,7 +17,7 @@ import {
 const GetStarted = () => {
   const [copied, setCopied] = useState(false)
 
-  const installCommand = "npm install -g @vibecoder/stack-planner"
+  const installCommand = "npm install -g @vibeplan/stack-planner"
 
   const handleCopy = async () => {
     try {
@@ -44,8 +44,8 @@ const GetStarted = () => {
       description: "Add to your MCP configuration",
       code: `{
   "servers": {
-    "vibecoder-stack-planner": {
-      "command": "vibecoder-stack-planner",
+    "vibeplan-stack-planner": {
+      "command": "vibeplan-stack-planner",
       "args": []
     }
   }
@@ -56,7 +56,7 @@ const GetStarted = () => {
       step: "3",
       title: "Start Planning",
       description: "Begin your first planning session",
-      code: "// Ask VibeCoder: Help me plan a user dashboard feature",
+      code: "// Ask VibePlan: Help me plan a user dashboard feature",
       icon: Play
     }
   ]
@@ -66,14 +66,14 @@ const GetStarted = () => {
       title: "Documentation",
       description: "Complete setup guide and API reference",
       icon: BookOpen,
-      link: "https://github.com/crazyrabbitLTC/mcp-vibecoder#readme",
+      link: "https://github.com/memextech/vibe-plan-mcp#readme",
       color: "from-blue-500 to-cyan-500"
     },
     {
       title: "GitHub Repository", 
       description: "Source code, issues, and contributions",
       icon: Github,
-      link: "https://github.com/crazyrabbitLTC/mcp-vibecoder",
+      link: "https://github.com/memextech/vibe-plan-mcp",
       color: "from-gray-700 to-gray-900"
     },
     {
@@ -88,7 +88,7 @@ const GetStarted = () => {
   console.log('GetStarted component rendered')
 
   return (
-    <section id="get-started" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-700">
+    <section id="get-started" className="section-padding bg-gradient-to-b from-white to-gray-50 dark:from-darkula-700 dark:to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -113,10 +113,10 @@ const GetStarted = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Get Started</span>
             <br />
-            <span className="text-darkula-50">In Minutes</span>
+            <span className="text-gray-900 dark:text-darkula-50">In Minutes</span>
           </h2>
           
-          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 dark:text-darkula-200 max-w-3xl mx-auto">
             Join thousands of developers who've transformed their workflow. 
             Setup is simple, the impact is immediate.
           </p>
@@ -153,10 +153,10 @@ const GetStarted = () => {
                     </motion.div>
                   </div>
                   
-                  <h3 className="text-xl font-bold text-vibe-100 mb-2">
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-vibe-100 mb-2">
                     {step.title}
                   </h3>
-                  <p className="text-vibe-300">
+                  <p className="text-gray-800 dark:text-vibe-300">
                     {step.description}
                   </p>
                 </div>
@@ -198,7 +198,7 @@ const GetStarted = () => {
                     </div>
                     
                     {/* Code content */}
-                    <pre className="text-sm text-vibe-200 leading-relaxed overflow-x-auto whitespace-pre-wrap">
+                    <pre className="text-sm text-gray-800 dark:text-vibe-200 leading-relaxed overflow-x-auto whitespace-pre-wrap">
                       {step.code}
                     </pre>
 
@@ -220,11 +220,11 @@ const GetStarted = () => {
           viewport={{ once: true }}
         >
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-vibe-100 mb-4">
+            <h3 className="text-3xl font-bold text-gray-900 dark:text-vibe-100 mb-4">
               Resources & Support
             </h3>
-            <p className="text-lg text-vibe-300">
-              Everything you need to get the most out of VibeCoder Stack Planner
+            <p className="text-lg text-gray-700 dark:text-vibe-300">
+              Everything you need to get the most out of VibePlan
             </p>
           </div>
 
@@ -242,7 +242,7 @@ const GetStarted = () => {
                 viewport={{ once: true }}
                 whileHover={{ y: -5 }}
               >
-                <div className="glass rounded-xl p-6 h-full hover:bg-white/10 interactive group-hover:shadow-xl">
+                <div className="glass rounded-xl p-6 h-full hover:bg-gray-100/50 dark:hover:bg-white/10 interactive group-hover:shadow-xl">
                   <div className="flex items-center space-x-3 mb-4">
                     <motion.div
                       className={`p-3 rounded-lg bg-gradient-to-r ${resource.color}`}
@@ -251,13 +251,13 @@ const GetStarted = () => {
                     >
                       <resource.icon className="w-6 h-6 text-white" />
                     </motion.div>
-                    <ExternalLink className="w-4 h-4 text-vibe-400 group-hover:text-vibe-200 transition-colors" />
+                    <ExternalLink className="w-4 h-4 text-gray-600 dark:text-vibe-400 group-hover:text-gray-800 dark:group-hover:text-vibe-200 transition-colors" />
                   </div>
                   
-                  <h4 className="text-xl font-semibold text-vibe-100 mb-2 group-hover:text-white transition-colors">
+                  <h4 className="text-xl font-semibold text-gray-900 dark:text-vibe-100 mb-2 group-hover:text-gray-900 dark:group-hover:text-white transition-colors">
                     {resource.title}
                   </h4>
-                  <p className="text-vibe-300 group-hover:text-vibe-200 transition-colors">
+                  <p className="text-gray-700 dark:text-vibe-300 group-hover:text-gray-800 dark:group-hover:text-vibe-200 transition-colors">
                     {resource.description}
                   </p>
                 </div>
@@ -283,11 +283,11 @@ const GetStarted = () => {
               <Zap className="w-8 h-8 text-white" />
             </motion.div>
             
-            <h3 className="text-3xl font-bold text-vibe-100 mb-4">
+            <h3 className="text-3xl font-bold text-gray-900 dark:text-vibe-100 mb-4">
               Ready to Transform Your Workflow?
             </h3>
-            <p className="text-lg text-vibe-300 mb-8">
-              Join the inline planning revolution. Install VibeCoder Stack Planner 
+            <p className="text-lg text-gray-700 dark:text-vibe-300 mb-8">
+              Join the inline planning revolution. Install VibePlan 
               and experience the future of software development.
             </p>
             
@@ -304,10 +304,10 @@ const GetStarted = () => {
               </motion.button>
               
               <motion.a
-                href="https://github.com/crazyrabbitLTC/mcp-vibecoder"
+                href="https://github.com/memextech/vibe-plan-mcp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-2 px-8 py-4 rounded-lg border border-primary-500/50 text-primary-300 font-semibold text-lg hover:bg-primary-500/10 interactive"
+                className="flex items-center justify-center space-x-2 px-8 py-4 rounded-lg border border-primary-500/50 text-primary-500 font-semibold text-lg hover:bg-primary-500/10 interactive"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >

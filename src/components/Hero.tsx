@@ -92,17 +92,17 @@ const Hero = () => {
           >
             <span className="gradient-text">Plan Directly</span>
             <br />
-            <span className="text-darkula-50">In Your Code</span>
+            <span className="text-gray-900 dark:text-darkula-50">In Your Code</span>
           </motion.h1>
 
           {/* Subtitle */}
           <motion.p
-            className="text-xl md:text-2xl text-darkula-200 mb-8 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-gray-700 dark:text-darkula-200 mb-8 max-w-3xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Stop switching between planning tools and your IDE. VibeCoder Stack Planner brings 
+            Stop switching between planning tools and your vibe coding tool. VibePlan brings 
             <span className="text-primary-500 font-semibold"> intelligent software planning </span>
             directly into your coding environment.
           </motion.p>
@@ -147,7 +147,7 @@ const Hero = () => {
               {
                 icon: "🚀",
                 title: "Zero Context Switching",
-                description: "Plan without leaving your IDE"
+                description: "Plan without leaving your vibe coding tool"
               },
               {
                 icon: "⚡",
@@ -156,21 +156,21 @@ const Hero = () => {
               },
               {
                 icon: "🎯",
-                title: "Built for VibeCoders",
+                title: "Built for VibePlanners",
                 description: "Intuitive for all skill levels"
               }
             ].map((benefit, index) => (
               <motion.div
                 key={benefit.title}
-                className="glass rounded-lg p-6 text-center hover:bg-white/10 interactive"
+                className="glass rounded-lg p-6 text-center hover:bg-gray-100/50 dark:hover:bg-white/10 interactive"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7 + index * 0.1, duration: 0.6 }}
                 whileHover={{ y: -5 }}
               >
                 <div className="text-3xl mb-3">{benefit.icon}</div>
-                <h3 className="font-semibold text-darkula-50 mb-2">{benefit.title}</h3>
-                <p className="text-sm text-darkula-200">{benefit.description}</p>
+                <h3 className="font-semibold text-gray-900 dark:text-darkula-50 mb-2">{benefit.title}</h3>
+                <p className="text-sm text-gray-700 dark:text-darkula-200">{benefit.description}</p>
               </motion.div>
             ))}
           </motion.div>

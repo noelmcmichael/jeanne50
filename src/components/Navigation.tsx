@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Code2, Github, ExternalLink } from 'lucide-react'
+import { Menu, X, Code2, Github, ExternalLink, Sun, Moon } from 'lucide-react'
+import { useTheme } from '../contexts/ThemeContext'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const { theme, toggleTheme } = useTheme()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,7 +42,7 @@ const Navigation = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <div className="container-custom section-padding py-4">
+      <div className="container-custom px-6 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <motion.div 
@@ -52,7 +54,7 @@ const Navigation = () => {
               <Code2 className="w-6 h-6 text-darkula-700" />
             </div>
             <span className="text-xl font-bold gradient-text">
-              VibeCoder Stack Planner
+              VibePlan
             </span>
           </motion.div>
 
@@ -62,7 +64,7 @@ const Navigation = () => {
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-darkula-200 hover:text-primary-500 interactive"
+                className="text-gray-900 dark:text-darkula-200 hover:text-primary-500 interactive"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -70,11 +72,22 @@ const Navigation = () => {
               </motion.button>
             ))}
             
+            {/* Theme Toggle */}
+            <motion.button
+              onClick={toggleTheme}
+              className="p-2 rounded-lg text-gray-900 dark:text-darkula-200 hover:text-primary-500 hover:bg-gray-200 dark:hover:bg-darkula-600 transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              aria-label="Toggle theme"
+            >
+              {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+            </motion.button>
+            
             <motion.a
-              href="https://github.com/crazyrabbitLTC/mcp-vibecoder"
+              href="https://github.com/memextech/vibe-plan-mcp"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 hover:from-primary-600 hover:to-accent-600 interactive"
+              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-white hover:from-primary-600 hover:to-accent-600 interactive"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -84,14 +97,27 @@ const Navigation = () => {
             </motion.a>
           </div>
 
-          {/* Mobile menu button */}
-          <motion.button
-            className="md:hidden p-2 rounded-lg text-darkula-200 hover:text-darkula-50 hover:bg-darkula-600"
-            onClick={() => setIsOpen(!isOpen)}
-            whileTap={{ scale: 0.95 }}
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </motion.button>
+          {/* Mobile buttons */}
+          <div className="md:hidden flex items-center space-x-2">
+            {/* Mobile Theme Toggle */}
+            <motion.button
+              onClick={toggleTheme}
+              className="p-2 rounded-lg text-gray-900 dark:text-darkula-200 hover:text-primary-500 hover:bg-gray-200 dark:hover:bg-darkula-600 transition-colors"
+              whileTap={{ scale: 0.95 }}
+              aria-label="Toggle theme"
+            >
+              {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+            </motion.button>
+            
+            {/* Mobile menu button */}
+            <motion.button
+              className="p-2 rounded-lg text-gray-900 dark:text-darkula-200 hover:text-gray-900 dark:hover:text-darkula-50 hover:bg-gray-200 dark:hover:bg-darkula-600"
+              onClick={() => setIsOpen(!isOpen)}
+              whileTap={{ scale: 0.95 }}
+            >
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </motion.button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
@@ -109,17 +135,17 @@ const Navigation = () => {
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="block w-full text-left text-darkula-200 hover:text-primary-500 py-2"
+                className="block w-full text-left text-gray-900 dark:text-darkula-200 hover:text-primary-500 py-2"
                 whileHover={{ x: 10 }}
               >
                 {item.name}
               </motion.button>
             ))}
             <motion.a
-              href="https://github.com/crazyrabbitLTC/mcp-vibecoder"
+              href="https://github.com/memextech/vibe-plan-mcp"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700"
+              className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-white"
               whileHover={{ scale: 1.02 }}
             >
               <Github className="w-4 h-4" />

@@ -1,4 +1,4 @@
-# VibeCoder Stack Planner
+# VibePlan
 
 > Revolutionary MCP server that brings intelligent software planning directly into your coding environment.
 
@@ -11,18 +11,18 @@ Experience the future of software planning with our beautiful, interactive websi
 
 ## ✨ Features
 
-- **Zero Context Switching**: Plan directly in your IDE without leaving your development environment
+- **Zero Context Switching**: Plan directly in your vibe coding tool without leaving your development environment
 - **AI-Powered Planning**: Intelligent questioning system that ensures comprehensive requirement gathering
 - **Instant Documentation**: Automatically generate PRDs and implementation plans from conversations
 - **MCP Integration**: Built on the Model Context Protocol for seamless tool integration
-- **VibeCoders Focused**: Designed for tech-savvy developers of all skill levels
+- **VibePlanners Focused**: Designed for tech-savvy developers of all skill levels
 
 ## 🚀 Quick Start
 
 ### Installation
 
 ```bash
-npm install -g @vibecoder/stack-planner
+npm install -g @vibeplan/stack-planner
 ```
 
 ### Configuration
@@ -32,8 +32,8 @@ Add to your MCP configuration:
 ```json
 {
   "servers": {
-    "vibecoder-stack-planner": {
-      "command": "vibecoder-stack-planner",
+    "vibeplan-stack-planner": {
+      "command": "vibeplan-stack-planner",
       "args": []
     }
   }
@@ -44,7 +44,7 @@ Add to your MCP configuration:
 
 ```typescript
 // Start planning directly in your IDE
-// Ask VibeCoder: Help me plan a user authentication system
+// Ask VibePlan: Help me plan a user authentication system
 ```
 
 ## 🎯 Benefits
@@ -62,7 +62,7 @@ This website is built with:
 - **Vite** - Lightning fast build tool
 - **Tailwind CSS** - Beautiful, responsive design
 - **Framer Motion** - Smooth animations
-- **Apple-level design quality** - Built for VibeCoders
+- **Apple-level design quality** - Built for VibePlanners
 
 ### Local Development
 
@@ -79,9 +79,9 @@ npm run build
 
 ## 📚 Resources
 
-- [GitHub Repository](https://github.com/crazyrabbitLTC/mcp-vibecoder)
+- [GitHub Repository](https://github.com/memextech/vibe-plan-mcp)
 - [MCP Protocol Documentation](https://modelcontextprotocol.io/)
-- [Installation Guide](https://github.com/crazyrabbitLTC/mcp-vibecoder#readme)
+- [Installation Guide](https://github.com/memextech/vibe-plan-mcp#readme)
 
 ## 🤝 Contributing
 

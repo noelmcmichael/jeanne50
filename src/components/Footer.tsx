@@ -22,8 +22,8 @@ const Footer = () => {
       { name: 'Get Started', href: '#get-started' }
     ],
     resources: [
-      { name: 'Documentation', href: 'https://github.com/crazyrabbitLTC/mcp-vibecoder#readme', external: true },
-      { name: 'GitHub', href: 'https://github.com/crazyrabbitLTC/mcp-vibecoder', external: true },
+      { name: 'Documentation', href: 'https://github.com/memextech/vibe-plan-mcp#readme', external: true },
+      { name: 'GitHub', href: 'https://github.com/memextech/vibe-plan-mcp', external: true },
       { name: 'MCP Protocol', href: 'https://modelcontextprotocol.io/', external: true },
       { name: 'Support', href: '#', external: false }
     ],
@@ -49,7 +49,7 @@ const Footer = () => {
   console.log('Footer component rendered')
 
   return (
-    <footer className="bg-gradient-to-b from-darkula-700 to-darkula-700 border-t border-darkula-400">
+    <footer className="bg-gradient-to-b from-gray-100 to-gray-200 dark:from-darkula-700 dark:to-darkula-700 border-t border-gray-300 dark:border-darkula-400">
       <div className="container-custom section-padding">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
@@ -64,21 +64,21 @@ const Footer = () => {
                 <Code2 className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold gradient-text">
-                VibeCoder
+                VibePlan
               </span>
             </motion.div>
             
-            <p className="text-darkula-200 mb-6 leading-relaxed">
+            <p className="text-gray-800 dark:text-darkula-200 mb-6 leading-relaxed">
               Revolutionary MCP server that brings intelligent software planning 
               directly into your coding environment. Plan where you code.
             </p>
             
             <div className="flex space-x-4">
               <motion.a
-                href="https://github.com/crazyrabbitLTC/mcp-vibecoder"
+                href="https://github.com/memextech/vibe-plan-mcp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg text-darkula-200 hover:text-darkula-50 hover:bg-darkula-600 transition-colors"
+                className="p-2 rounded-lg text-gray-800 dark:text-darkula-200 hover:text-gray-900 dark:hover:text-darkula-50 hover:bg-gray-200 dark:hover:bg-darkula-600 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -86,7 +86,7 @@ const Footer = () => {
               </motion.a>
               <motion.a
                 href="#"
-                className="p-2 rounded-lg text-vibe-400 hover:text-white hover:bg-vibe-700 transition-colors"
+                className="p-2 rounded-lg text-gray-800 dark:text-vibe-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-200 dark:hover:bg-vibe-700 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -94,7 +94,7 @@ const Footer = () => {
               </motion.a>
               <motion.a
                 href="#"
-                className="p-2 rounded-lg text-vibe-400 hover:text-white hover:bg-vibe-700 transition-colors"
+                className="p-2 rounded-lg text-gray-800 dark:text-vibe-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-200 dark:hover:bg-vibe-700 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -105,7 +105,7 @@ const Footer = () => {
 
           {/* Product Links */}
           <div>
-            <h3 className="text-lg font-semibold text-vibe-100 mb-4">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-vibe-100 mb-4">
               Product
             </h3>
             <ul className="space-y-3">
@@ -113,7 +113,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <motion.button
                     onClick={() => handleLinkClick(link.href, false)}
-                    className="text-vibe-300 hover:text-primary-400 transition-colors"
+                    className="text-gray-800 dark:text-vibe-300 hover:text-primary-500 transition-colors"
                     whileHover={{ x: 5 }}
                   >
                     {link.name}
@@ -125,7 +125,7 @@ const Footer = () => {
 
           {/* Resources Links */}
           <div>
-            <h3 className="text-lg font-semibold text-vibe-100 mb-4">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-vibe-100 mb-4">
               Resources
             </h3>
             <ul className="space-y-3">
@@ -133,7 +133,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <motion.button
                     onClick={() => handleLinkClick(link.href, link.external)}
-                    className="flex items-center space-x-1 text-vibe-300 hover:text-primary-400 transition-colors"
+                    className="flex items-center space-x-1 text-gray-800 dark:text-vibe-300 hover:text-primary-500 transition-colors"
                     whileHover={{ x: 5 }}
                   >
                     <span>{link.name}</span>
@@ -146,7 +146,7 @@ const Footer = () => {
 
           {/* Community Links */}
           <div>
-            <h3 className="text-lg font-semibold text-vibe-100 mb-4">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-vibe-100 mb-4">
               Community
             </h3>
             <ul className="space-y-3">
@@ -154,7 +154,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <motion.button
                     onClick={() => handleLinkClick(link.href, link.external)}
-                    className="flex items-center space-x-1 text-vibe-300 hover:text-primary-400 transition-colors"
+                    className="flex items-center space-x-1 text-gray-800 dark:text-vibe-300 hover:text-primary-500 transition-colors"
                     whileHover={{ x: 5 }}
                   >
                     <span>{link.name}</span>
@@ -167,11 +167,11 @@ const Footer = () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-vibe-700 pt-8">
+        <div className="border-t border-gray-300 dark:border-vibe-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
-            <div className="flex items-center space-x-2 text-vibe-400">
-              <span>© {currentYear} VibeCoder Stack Planner</span>
+            <div className="flex items-center space-x-2 text-gray-800 dark:text-vibe-400">
+              <span>© {currentYear} VibePlan</span>
               <span>•</span>
               <span className="flex items-center space-x-1">
                 <span>Made with</span>
@@ -181,12 +181,12 @@ const Footer = () => {
                 >
                   <Heart className="w-4 h-4 text-red-400" />
                 </motion.div>
-                <span>for developers</span>
+                <span>for vibe coders</span>
               </span>
             </div>
 
             {/* Credits */}
-            <div className="flex items-center space-x-4 text-sm text-vibe-400">
+            <div className="flex items-center space-x-4 text-sm text-gray-800 dark:text-vibe-400">
               <motion.div
                 className="flex items-center space-x-1"
                 whileHover={{ scale: 1.05 }}

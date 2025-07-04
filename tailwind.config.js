@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -7,27 +8,27 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Darkula Orange - primary accent color
+        // Primary accent color - adaptable to light/dark
         primary: {
           50: '#fff7ed',
           100: '#ffedd5',
           200: '#fed7aa',
           300: '#fdba74',
           400: '#fb923c',
-          500: '#CC7832', // Main Darkula orange
+          500: '#f97316', // Better for light theme
           600: '#ea580c',
           700: '#c2410c',
           800: '#9a3412',
           900: '#7c2d12',
         },
-        // Darkula Blue - secondary accent
+        // Secondary accent - adaptable to light/dark
         accent: {
           50: '#eff6ff',
           100: '#dbeafe',
           200: '#bfdbfe',
           300: '#93c5fd',
           400: '#60a5fa',
-          500: '#6897BB', // Darkula blue
+          500: '#3b82f6', // Better for light theme
           600: '#2563eb',
           700: '#1d4ed8',
           800: '#1e40af',

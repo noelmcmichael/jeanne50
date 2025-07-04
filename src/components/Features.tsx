@@ -61,7 +61,7 @@ const Features = () => {
   console.log('Features component rendered')
 
   return (
-    <section id="features" className="section-padding bg-gradient-to-b from-darkula-700 to-darkula-700">
+    <section id="features" className="section-padding bg-gradient-to-b from-white to-gray-50 dark:from-darkula-700 dark:to-darkula-700">
       <div className="container-custom">
         <motion.div
           className="text-center mb-16"
@@ -79,17 +79,17 @@ const Features = () => {
           >
             <Users className="w-4 h-4 text-primary-500" />
             <span className="text-sm font-medium text-primary-500">
-              Built for VibeCoders
+              Built for VibePlanners
             </span>
           </motion.div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Powerful Features</span>
             <br />
-            <span className="text-darkula-50">For Modern Development</span>
+            <span className="text-gray-900 dark:text-darkula-50">For Modern Development</span>
           </h2>
           
-          <p className="text-xl text-darkula-200 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-700 dark:text-darkula-200 max-w-3xl mx-auto">
             Everything you need to plan, document, and execute your software projects 
             without ever leaving your development environment.
           </p>
@@ -105,7 +105,7 @@ const Features = () => {
               transition={{ delay: index * 0.1, duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <div className="glass rounded-xl p-6 h-full hover:bg-white/10 interactive group-hover:shadow-2xl">
+              <div className="glass rounded-xl p-6 h-full hover:bg-gray-100/50 dark:hover:bg-white/10 interactive group-hover:shadow-2xl">
                 {/* Icon */}
                 <motion.div
                   className={`inline-flex p-3 rounded-lg bg-gradient-to-r ${feature.gradient} mb-4`}
@@ -116,11 +116,11 @@ const Features = () => {
                 </motion.div>
 
                 {/* Content */}
-                <h3 className="text-xl font-semibold text-darkula-50 mb-3 group-hover:text-darkula-50 transition-colors">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-darkula-50 mb-3 group-hover:text-gray-900 dark:group-hover:text-darkula-50 transition-colors">
                   {feature.title}
                 </h3>
                 
-                <p className="text-darkula-200 mb-4 leading-relaxed">
+                <p className="text-gray-800 dark:text-darkula-200 mb-4 leading-relaxed">
                   {feature.description}
                 </p>
 
@@ -129,7 +129,7 @@ const Features = () => {
                   {feature.benefits.map((benefit, benefitIndex) => (
                     <motion.li
                       key={benefit}
-                      className="flex items-center space-x-2 text-sm text-darkula-200"
+                      className="flex items-center space-x-2 text-sm text-gray-800 dark:text-darkula-200"
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ delay: (index * 0.1) + (benefitIndex * 0.05) + 0.3 }}
@@ -164,10 +164,10 @@ const Features = () => {
               <Clock className="w-5 h-5 text-primary-500" />
               <span className="text-primary-500 font-medium">Ready in minutes</span>
             </div>
-            <h3 className="text-2xl font-bold text-darkula-50 mb-3">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-darkula-50 mb-3">
               Experience the Future of Planning
             </h3>
-            <p className="text-darkula-200 mb-6">
+            <p className="text-gray-700 dark:text-darkula-200 mb-6">
               Join thousands of developers who've transformed their workflow with inline planning.
             </p>
             <motion.button
@@ -177,7 +177,7 @@ const Features = () => {
                   element.scrollIntoView({ behavior: 'smooth' })
                 }
               }}
-              className="px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-darkula-700 font-semibold hover:from-primary-600 hover:to-accent-600 interactive"
+              className="px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500 to-accent-500 text-white font-semibold hover:from-primary-600 hover:to-accent-600 interactive"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
