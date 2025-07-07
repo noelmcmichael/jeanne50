@@ -12,13 +12,11 @@ const images = [
   '/turks/wymara-beach-bbq-bonfire-night_2048x1365.jpg',
   '/IMG_2245.JPG',
   '/IMG_3395.jpg',
-  '/IMG_4473.jpg',
   '/IMG_4515.JPG',
   '/IMG_4516.JPG',
   '/IMG_4517.JPG',
   '/IMG_4518.JPG',
   '/IMG_4529.JPG',
-  '/IMG_8697.JPG',
 ];
 
 const Gallery = () => {
