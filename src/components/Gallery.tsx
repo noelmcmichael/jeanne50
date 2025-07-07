@@ -9,7 +9,6 @@ const images = [
   '/turks/header-turks-and-caicos-grace-bay-providenciales-TURKSCAICOSTG0621-ffd6b7161b5f4d0bb0bddd6a53e2695f.jpg',
   '/turks/style_traveler-1.jpg',
   '/turks/wymara-beach-bbq-bonfire-night_2048x1365.jpg',
-  '/IMG_0544.JPG',
   '/IMG_2245.JPG',
   '/IMG_3395.jpg',
   '/IMG_4473.jpg',
