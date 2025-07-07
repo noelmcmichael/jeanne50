@@ -29,22 +29,22 @@ const Itinerary = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-sand">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Itinerary</h2>
+        <h2 className="font-heading text-5xl font-bold text-center mb-16 text-dark-text">Itinerary</h2>
         <div className="relative">
-          <div className="border-r-2 border-gray-200 absolute h-full top-0" style={{ left: '50%' }}></div>
+          <div className="border-r-2 border-ocean-blue absolute h-full top-0" style={{ left: '50%' }}></div>
           {events.map((event, index) => (
             <div key={index} className={`mb-8 flex justify-between items-center w-full ${index % 2 === 0 ? 'flex-row-reverse' : ''}`}>
               <div className="w-5/12"></div>
-              <div className="z-20 flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-md">
-                <span className="text-2xl">{event.icon}</span>
+              <div className="z-20 flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-lg">
+                <span className="text-3xl">{event.icon}</span>
               </div>
               <div className="w-5/12">
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <p className="text-gray-500 text-sm">{event.time}</p>
-                  <h3 className="text-xl font-bold mt-2">{event.title}</h3>
-                  <p className="text-gray-700 mt-2">{event.description}</p>
+                <div className="bg-white p-6 rounded-lg shadow-lg animate-fade-in-up">
+                  <p className="font-body text-ocean-blue text-sm">{event.time}</p>
+                  <h3 className="font-heading text-2xl font-bold mt-2 text-dark-text">{event.title}</h3>
+                  <p className="font-body text-gray-700 mt-2">{event.description}</p>
                 </div>
               </div>
             </div>
