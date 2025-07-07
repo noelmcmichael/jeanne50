@@ -5,16 +5,26 @@ import Destination from './components/Destination';
 import Gallery from './components/Gallery';
 import RSVP from './components/RSVP';
 import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div>
+      <Navigation />
       <Hero />
-      <Itinerary />
-      <Travel />
+      <div id="itinerary">
+        <Itinerary />
+      </div>
+      <div id="travel">
+        <Travel />
+      </div>
       <Destination />
-      <Gallery />
-      <RSVP />
+      <div id="gallery">
+        <Gallery />
+      </div>
+      <div id="rsvp">
+        <RSVP />
+      </div>
       <Footer />
     </div>
   );

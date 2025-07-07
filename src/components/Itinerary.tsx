@@ -9,7 +9,7 @@ const Itinerary = () => {
     {
       time: 'June 6, 2026 - 6:00 PM',
       title: 'Birthday Dinner',
-      description: 'A special dinner to celebrate Jeannie\'s 50th birthday.',
+      description: 'A special dinner to celebrate Jeanne\'s 50th birthday.',
       icon: '🎂',
     },
     {
@@ -42,7 +42,7 @@ const Itinerary = () => {
                 <div className="bg-white p-6 rounded-lg shadow-lg animate-fade-in-up">
                   <p className="font-body text-ocean-blue text-sm">{event.time}</p>
                   <h3 className="font-heading text-2xl font-bold mt-2 text-dark-text">{event.title}</h3>
-                  <p className="font-body text-gray-700 mt-2">{event.description}</p>
+                  <p className="font-body text-gray-700 mt-2">{event.description.replace('Jeannie', 'Jeanne')}</p>
                 </div>
               </div>
             </div>
