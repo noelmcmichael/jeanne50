@@ -10,8 +10,6 @@ const images = [
   '/turks/style_traveler-1.jpg',
   '/turks/wymara-beach-bbq-bonfire-night_2048x1365.jpg',
   '/IMG_0544.JPG',
-  '/IMG_1944.jpg',
-  '/IMG_1948.jpg',
   '/IMG_2245.JPG',
   '/IMG_3395.jpg',
   '/IMG_4473.jpg',
@@ -20,9 +18,7 @@ const images = [
   '/IMG_4517.JPG',
   '/IMG_4518.JPG',
   '/IMG_4529.JPG',
-  '/IMG_5564.jpg',
   '/IMG_6552.JPG',
-  '/IMG_6973.jpg',
   '/IMG_8697.JPG',
 ];
 
