@@ -1,5 +1,3 @@
-import React from 'react';
-
 const images = [
   'https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?q=80&w=2072&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1540202404-1b927b023548?q=80&w=2070&auto=format&fit=crop',

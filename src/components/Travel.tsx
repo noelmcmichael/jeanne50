@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Travel = () => {
   return (
     <section className="py-20 bg-off-white">

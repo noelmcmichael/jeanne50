@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Itinerary = () => {
   const events = [
     {

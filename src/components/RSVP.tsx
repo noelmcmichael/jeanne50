@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const RSVP = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [guests, setGuests] = useState(1);
+  const [guests, setGuests] = useState('1');
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const response = await fetch('https://formspree.io/f/your_form_id', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ name, email, guests, message }),
+      body: JSON.stringify({ name, email, guests: Number(guests), message }),
     });
 
     if (response.ok) {
@@ -66,7 +66,7 @@ const RSVP = () => {
               type="number"
               id="guests"
               value={guests}
-              onChange={(e) => setGuests(parseInt(e.target.value))}
+              onChange={(e) => setGuests(e.target.value)}
               min="1"
               className="w-full px-4 py-3 font-body border-2 border-sand rounded-lg focus:outline-none focus:border-ocean-blue"
               required
@@ -79,7 +79,7 @@ const RSVP = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               className="w-full px-4 py-3 font-body border-2 border-sand rounded-lg focus:outline-none focus:border-ocean-blue"
-              rows="4"
+              rows={4}
             ></textarea>
           </div>
           <div className="text-center">

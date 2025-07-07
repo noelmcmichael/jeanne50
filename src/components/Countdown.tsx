@@ -1,9 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+
+interface TimeLeft {
+  days?: number;
+  hours?: number;
+  minutes?: number;
+  seconds?: number;
+}
 
 const Countdown = () => {
-  const calculateTimeLeft = () => {
+  const calculateTimeLeft = (): TimeLeft => {
     const difference = +new Date('2026-06-06') - +new Date();
-    let timeLeft = {};
+    let timeLeft: TimeLeft = {};
 
     if (difference > 0) {
       timeLeft = {
@@ -17,7 +24,7 @@ const Countdown = () => {
     return timeLeft;
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft());
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -27,17 +34,18 @@ const Countdown = () => {
     return () => clearTimeout(timer);
   });
 
-  const timerComponents = [];
+  const timerComponents: JSX.Element[] = [];
 
   Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
+    const key = interval as keyof TimeLeft;
+    if (!timeLeft[key]) {
       return;
     }
 
     timerComponents.push(
-      <div key={interval} className="text-center">
-        <span className="font-heading text-5xl font-bold text-white">{timeLeft[interval]}</span>
-        <span className="block font-body text-sm text-sand uppercase tracking-widest">{interval}</span>
+      <div key={key} className="text-center">
+        <span className="font-heading text-5xl font-bold text-white">{timeLeft[key]}</span>
+        <span className="block font-body text-sm text-sand uppercase tracking-widest">{key}</span>
       </div>
     );
   });

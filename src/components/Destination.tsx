@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Destination = () => {
   return (
     <section className="py-20 bg-sand">
