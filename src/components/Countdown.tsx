@@ -45,7 +45,7 @@ const Countdown = () => {
     timerComponents.push(
       <div key={key} className="text-center">
         <span className="font-heading text-5xl font-bold text-white">{timeLeft[key]}</span>
-        <span className="block font-body text-sm text-sand uppercase tracking-widest">{key}</span>
+        <span className="block font-body text-sm text-off-white uppercase tracking-widest">{key}</span>
       </div>
     );
   });

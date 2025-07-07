@@ -12,6 +12,7 @@ export default {
         'sand': '#F5F5DC',
         'off-white': '#F8F8F8',
         'dark-text': '#333333',
+        'subtle-gray': '#A9A9A9',
       },
       fontFamily: {
         'heading': ['"Cormorant Garamond"', 'serif'],
