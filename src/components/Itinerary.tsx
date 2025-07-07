@@ -1,27 +1,27 @@
 const Itinerary = () => {
   const events = [
     {
-      time: 'June 5, 2026 - 7:00 PM',
-      title: 'Welcome Cocktails',
-      description: 'Join us for welcome drinks and light bites as we kick off the celebration.',
+      time: 'June 13, 2026',
+      title: 'Arrival & Welcome',
+      description: 'Arrive in paradise, settle in, and join us for a casual welcome get-together in the evening.',
       icon: '🎉',
     },
     {
-      time: 'June 6, 2026 - 6:00 PM',
-      title: 'Birthday Dinner',
-      description: 'A special dinner to celebrate Jeanne\'s 50th birthday.',
+      time: 'During Your Stay',
+      title: 'Jeanne\'s Birthday Celebration',
+      description: 'We will celebrate Jeanne\'s 50th with a special dinner one evening. Details to follow!',
       icon: '🎂',
     },
     {
-      time: 'June 7, 2026 - 11:00 AM',
-      title: 'Catamaran Cruise',
-      description: 'A fun day on the water exploring the beautiful coastline.',
+      time: 'During Your Stay',
+      title: 'Group Activities',
+      description: 'We are planning some fun group activities like a catamaran cruise. Stay tuned for the schedule!',
       icon: '⛵️',
     },
     {
-      time: 'June 8, 2026 - 10:00 AM',
-      title: 'Farewell Brunch',
-      description: 'One last get-together before we all head home.',
+      time: 'June 20, 2026',
+      title: 'Farewell',
+      description: 'Enjoy a final breakfast before heading home, full of wonderful memories.',
       icon: '🥂',
     },
   ];

@@ -19,13 +19,11 @@ const Travel = () => {
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <h3 className="font-heading text-3xl font-bold mb-4 text-ocean-blue">Where to Stay</h3>
             <p className="font-body text-dark-text mb-4">
-              We recommend staying in the Grace Bay area, as this is where most of the events will take place. Here are a few suggestions:
+              We are excited to have everyone stay together! We are finalizing details for a room block at a beautiful resort in Grace Bay.
             </p>
-            <ul className="list-disc list-inside font-body text-dark-text">
-              <li>Seven Stars Resort & Spa</li>
-              <li>The Palms Turks and Caicos</li>
-              <li>Wymara Resort and Villas</li>
-            </ul>
+            <p className="font-body text-dark-text font-bold">
+              Booking information and special rates will be shared here very soon.
+            </p>
           </div>
         </div>
         <Map />
