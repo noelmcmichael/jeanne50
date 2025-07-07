@@ -20,6 +20,7 @@ export default {
       animation: {
         'fade-in-up': 'fade-in-up 1s ease-out forwards',
         'ken-burns': 'ken-burns 20s ease-out forwards',
+        'float': 'float 6s ease-in-out infinite',
       },
       keyframes: {
         'fade-in-up': {
@@ -39,6 +40,11 @@ export default {
           '100%': {
             transform: 'scale(1.1) translate(-2%, -2%)',
           },
+        },
+        'float': {
+          '0%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+          '100%': { transform: 'translateY(0px)' },
         },
       },
     },

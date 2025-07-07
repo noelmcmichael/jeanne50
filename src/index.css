@@ -128,3 +128,7 @@ html.dark {
 .float-delay-3 {
   animation-delay: 1.5s;
 }
+
+.text-glow {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6), 0 0 12px rgba(255, 215, 0, 0.4);
+}
