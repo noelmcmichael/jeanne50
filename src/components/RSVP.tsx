@@ -7,11 +7,19 @@ const RSVP = () => {
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would typically send the data to a server
-    console.log({ name, email, guests, message });
-    setSubmitted(true);
+    const response = await fetch('https://formspree.io/f/your_form_id', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, guests, message }),
+    });
+
+    if (response.ok) {
+      setSubmitted(true);
+    }
   };
 
   if (submitted) {
