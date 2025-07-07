@@ -36,7 +36,7 @@ const Navigation = () => {
             <ul className="flex space-x-8">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <a href={link.href} className={`font-body font-semibold transition-colors duration-300 ${scrolled ? 'text-dark-text hover:text-ocean-blue' : 'text-white hover:text-opacity-80'}`}>
+                  <a href={link.href} className={`font-body font-semibold transition-colors duration-300 ${scrolled ? 'text-dark-text hover:text-ocean-blue' : 'text-white hover:text-sunset-gold'}`}>
                     {link.label}
                   </a>
                 </li>
