@@ -21,6 +21,7 @@ const Navigation = () => {
     { href: '#itinerary', label: 'Itinerary' },
     { href: '#travel', label: 'Travel' },
     { href: '#gallery', label: 'Gallery' },
+    { href: '#memories', label: 'Memories' },
     { href: '#rsvp', label: 'RSVP' },
   ];
 

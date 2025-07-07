@@ -1,3 +1,5 @@
+import Map from './Map';
+
 const Travel = () => {
   return (
     <section className="py-20 bg-off-white">
@@ -26,6 +28,7 @@ const Travel = () => {
             </ul>
           </div>
         </div>
+        <Map />
       </div>
     </section>
   );
