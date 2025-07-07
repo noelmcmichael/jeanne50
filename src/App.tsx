@@ -4,6 +4,7 @@ import Itinerary from './components/Itinerary';
 import Travel from './components/Travel';
 import Destination from './components/Destination';
 import RSVP from './components/RSVP';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Travel />
       <Destination />
       <RSVP />
+      <Footer />
     </div>
   );
 }
