@@ -19,6 +19,7 @@ export default {
       },
       animation: {
         'fade-in-up': 'fade-in-up 1s ease-out forwards',
+        'ken-burns': 'ken-burns 20s ease-out forwards',
       },
       keyframes: {
         'fade-in-up': {
@@ -29,6 +30,14 @@ export default {
           '100%': {
             opacity: '1',
             transform: 'translateY(0)',
+          },
+        },
+        'ken-burns': {
+          '0%': {
+            transform: 'scale(1) translate(0, 0)',
+          },
+          '100%': {
+            transform: 'scale(1.1) translate(-2%, -2%)',
           },
         },
       },
