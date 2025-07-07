@@ -4,7 +4,7 @@ const Travel = () => {
   return (
     <section className="py-20 bg-off-white">
       <div className="container mx-auto px-4">
-        <h2 className="font-heading text-5xl font-bold text-center mb-16 text-dark-text">Travel & Accommodation</h2>
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-16 text-dark-text">Travel & Accommodation</h2>
         <div className="grid md:grid-cols-2 gap-12">
           <div className="animate-fade-in-up">
             <h3 className="font-heading text-3xl font-bold mb-4 text-ocean-blue">Getting Here</h3>

@@ -2,7 +2,7 @@ const Destination = () => {
   return (
     <section className="py-20 bg-sand">
       <div className="container mx-auto px-4">
-        <h2 className="font-heading text-5xl font-bold text-center mb-16 text-dark-text">Destination Highlights</h2>
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-16 text-dark-text">Destination Highlights</h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <img src="https://images.unsplash.com/photo-1617955354237-93cb2e895a43?q=80&w=2070&auto=format&fit=crop" alt="Grace Bay Beach" className="rounded-lg shadow-lg" />

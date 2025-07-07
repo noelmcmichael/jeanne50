@@ -20,7 +20,7 @@ We are excited to celebrate with you!`;
   return (
     <section className="py-20 bg-off-white">
       <div className="container mx-auto px-4">
-        <h2 className="font-heading text-5xl font-bold text-center mb-12 text-dark-text">RSVP</h2>
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12 text-dark-text">RSVP</h2>
         <div className="max-w-xl mx-auto animate-fade-in-up">
           <div className="mb-6">
             <label htmlFor="name" className="block font-body text-dark-text font-bold mb-2">Full Name</label>

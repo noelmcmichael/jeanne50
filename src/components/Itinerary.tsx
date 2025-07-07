@@ -29,7 +29,7 @@ const Itinerary = () => {
   return (
     <section className="py-20 bg-sand">
       <div className="container mx-auto px-4">
-        <h2 className="font-heading text-5xl font-bold text-center mb-16 text-dark-text">Itinerary</h2>
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-16 text-dark-text">Itinerary</h2>
         <div className="relative">
           <div className="border-r-2 border-ocean-blue absolute h-full top-0" style={{ left: '50%' }}></div>
           {events.map((event, index) => (
