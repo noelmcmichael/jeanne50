@@ -1,5 +1,6 @@
 const images = [
   '/turks/609c6f7d07c8954d023f110c_Escapes-Hero-scaled.jpeg',
+  '/IMG_6552.JPG',
   '/turks/CIELO+-+Grace+Bay,+Turks+and+Caicos.jpeg',
   '/turks/CONCHSHACKBAR-d7574ef065a94a2dafbaf084591576ce.jpg',
   '/turks/OG_The-Ultimate-Turks-and-Caicos-Travel-Guide.jpg',
@@ -17,7 +18,6 @@ const images = [
   '/IMG_4517.JPG',
   '/IMG_4518.JPG',
   '/IMG_4529.JPG',
-  '/IMG_6552.JPG',
   '/IMG_8697.JPG',
 ];
 
