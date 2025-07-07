@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Itinerary from './components/Itinerary';
 import Travel from './components/Travel';
 import Destination from './components/Destination';
+import RSVP from './components/RSVP';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Itinerary />
       <Travel />
       <Destination />
+      <RSVP />
     </div>
   );
 }
