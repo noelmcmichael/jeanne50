@@ -1,4 +1,5 @@
 import React from 'react';
+import Countdown from './Countdown';
 
 const Hero = () => {
   return (
@@ -7,6 +8,7 @@ const Hero = () => {
       <div className="relative z-10 text-center">
         <h1 className="text-5xl md:text-7xl font-bold">Jeannie's 50th Birthday</h1>
         <p className="mt-4 text-xl md:text-2xl">Grace Bay, Turks & Caicos</p>
+        <Countdown />
       </div>
     </section>
   );
