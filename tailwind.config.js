@@ -107,6 +107,7 @@ export default {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'darkula-gradient': 'linear-gradient(135deg, #CC7832 0%, #6897BB 50%, #6A8759 100%)',
         'hero-pattern': 'radial-gradient(circle at 1px 1px, rgba(169, 183, 198, 0.1) 1px, transparent 0)',
+        'grace-bay': "url('https://images.unsplash.com/photo-1573843981267-be1999ff37cd?q=80&w=2070&auto=format&fit=crop')",
       },
       fontFamily: {
         'display': ['Inter', 'system-ui', 'sans-serif'],
