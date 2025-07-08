@@ -1,4 +1,4 @@
-import { ExternalLink, Phone, Star, MapPin, Wifi, Car, Utensils, Waves } from 'lucide-react';
+import { ExternalLink, Phone, Star, MapPin, Car, Utensils } from 'lucide-react';
 
 interface Hotel {
   id: string;
@@ -33,7 +33,7 @@ const Hotels = () => {
       description: 'A 5-star resort acclaimed for its full-service experience on the white sand beaches of Grace Bay. Suites range from junior to four-bedroom, all with marble bathrooms, full kitchens, and private terraces. Guests are greeted with rum punch and chilled towels, and pampered with beachside waiter service.',
       website: 'https://sevenstarsgracebay.com',
       phone: '+1 (649) 941-7777',
-      image: 'https://www.sevenstarsgracebay.com/assets/images/home_map.png',
+      image: 'https://www.sevenstarsgracebay.com/media/cache/88/5c/885c23de64beb2df46d50ba8e1c3b4b3.jpg',
       highlights: ['Saltwater pools', 'Marble bathrooms', 'Full kitchens', 'Beachside service', 'World-class spa'],
       priceRange: '$$$$'
     },
@@ -55,7 +55,7 @@ const Hotels = () => {
       description: 'An elegant 72-suite luxury resort with a classic Caribbean chic ambiance. The Palms offers spacious one- to three-bedroom suites steps from Grace Bay\'s powdery sand, plus world-class amenities like a 25,000 sq. ft. spa, infinity pool, swim-up bar, tennis, and fine dining.',
       website: 'https://thepalmstc.com',
       phone: '+1 (649) 946-8666',
-      image: 'https://www.thepalmstc.com/wp-content/uploads/2019/06/palms-hero-image.jpg',
+      image: 'https://thepalmstc.com/wp-content/uploads/2024/12/The-Palms-Beach-Setup-Aerial-shot_approved.jpg',
       highlights: ['25,000 sq ft spa', 'Infinity pool', 'Swim-up bar', 'Tennis court', 'Parallel23 restaurant'],
       priceRange: '$$$$'
     },
@@ -66,7 +66,7 @@ const Hotels = () => {
       description: 'A boutique Relais & Châteaux property known for its quiet, secluded luxury. It sits at the tip of Grace Bay with 28 luxe suites. Point Grace exudes old Caribbean charm and intimacy – it has a renowned Thalasso spa and the romantic Grace\'s Cottage restaurant on-site.',
       website: 'https://pointgrace.com',
       phone: '+1 (649) 946-5096',
-      image: 'https://www.pointgrace.com/wp-content/uploads/2019/08/point-grace-suite-ocean-view.jpg',
+      image: 'https://cache.marriott.com/content/dam/marriott-renditions/PLSRT/plsrt-grace-beach-8762-hor-feat.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*',
       highlights: ['Relais & Châteaux', 'Thalasso spa', 'Grace\'s Cottage restaurant', 'Old Caribbean charm', 'Secluded location'],
       priceRange: '$$$$'
     },
@@ -90,7 +90,7 @@ const Hotels = () => {
       description: 'An adults-only (18+) all-inclusive resort at the eastern tip of Grace Bay. This is a Club Med classic, known for a sociable, fun atmosphere. It has bungalow-style rooms, a beautiful beachfront infinity pool, multiple bars, and nightly entertainment with activities like sailing, snorkeling, tennis, and trapeze included.',
       website: 'https://clubmed.us/turkoise',
       phone: '+1 (649) 946-5500',
-      image: 'https://www.clubmed.us/ccm/content/assets/Destinations/Resorts/TURKO/turko-bungalow-ext.jpg',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c8/41/4a/exterior.jpg?w=700&h=-1&s=1',
       highlights: ['Adults-only', 'Bungalow-style rooms', 'Trapeze lessons', 'Sailing included', 'Nightly entertainment'],
       priceRange: '$$$'
     },
@@ -101,7 +101,7 @@ const Hotels = () => {
       description: 'A family-friendly all-inclusive resort centrally located on Grace Bay. It offers 120+ rooms/suites in a casual, lively environment. Features multiple dining options, a large free-form swimming pool with swim-up bar, non-motorized water sports, and exchange privileges with sister resorts.',
       website: 'https://alexandraresort.com',
       phone: '+1 (649) 946-5807',
-      image: 'https://www.alexandraresort.com/wp-content/uploads/2019/06/alexandra-resort-pool.jpg',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/8c/5f/e8/pool-area.jpg?w=700&h=-1&s=1',
       highlights: ['Family-friendly', 'Swim-up bar', 'Sister resort privileges', 'Central location', 'Multiple dining'],
       priceRange: '$$'
     },
@@ -114,7 +114,7 @@ const Hotels = () => {
       description: 'A popular condo resort on the far eastern end of Grace Bay, adjacent to the golf course. It has a classic Caribbean feel and is beloved by repeat visitors. Features condo suites with full kitchens, two pools, beach bar & grill, and the Opus fine-dining restaurant.',
       website: 'https://oceanclubresorts.com',
       phone: '+1 (649) 946-5880',
-      image: 'https://www.oceanclubresorts.com/wp-content/uploads/2019/06/ocean-club-east-pool.jpg',
+      image: 'https://www.oceanclubresorts.com/wp-content/uploads/2024/08/rsz_main_photo_OCE-1024x768.jpg',
       highlights: ['Golf course adjacent', 'Full kitchens', 'Two pools', 'Opus restaurant', 'Classic Caribbean feel'],
       priceRange: '$$$'
     },
@@ -125,7 +125,7 @@ const Hotels = () => {
       description: 'An intimate condo resort directly fronting the best snorkeling spot on Grace Bay (the Coral Gardens reef). It\'s a small property with one- and two-bedroom condo units, a beachfront pool, and the Somewhere Cafe restaurant which is a local favorite for sunset drinks.',
       website: 'https://coralgardens.tc',
       phone: '+1 (800) 532-8536',
-      image: 'https://www.coralgardens.tc/wp-content/uploads/2019/06/coral-gardens-snorkeling.jpg',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/e0/9a/d8/coral-gardens-on-grace.jpg?w=700&h=-1&s=1',
       highlights: ['Best snorkeling', 'Coral Gardens reef', 'Somewhere Cafe', 'Intimate setting', 'Beachfront pool'],
       priceRange: '$$'
     },
@@ -138,7 +138,7 @@ const Hotels = () => {
       description: 'A charming beachfront inn with only 30 rooms, Sibonné is the oldest hotel on Grace Bay. Its appeal lies in its intimacy and value – you stay right on Grace Bay Beach for a fraction of the cost of larger resorts. Features a small pool, tropical courtyard, and the excellent Bay Bistro restaurant.',
       website: 'https://sibonne.com',
       phone: '+1 (649) 946-5547',
-      image: 'https://www.sibonne.com/wp-content/uploads/2019/06/sibonne-beach-hotel.jpg',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/78/d2/2c/sibonne-beach-hotel.jpg?w=700&h=-1&s=1',
       highlights: ['Oldest hotel on Grace Bay', 'Bay Bistro restaurant', 'Intimate setting', 'Great value', 'Tropical courtyard'],
       priceRange: '$'
     },
@@ -149,7 +149,7 @@ const Hotels = () => {
       description: 'A 36-unit boutique hotel tucked away on a residential lane just off Grace Bay Road. The Oasis lives up to its name with a tranquil garden setting and two lovely pools. While not directly on the beach, it provides free golf cart shuttle service to their designated beach access.',
       website: 'https://oasisgracebay.com',
       phone: '+1 (649) 941-8821',
-      image: 'https://www.oasisgracebay.com/wp-content/uploads/2019/06/oasis-at-grace-bay-pool.jpg',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d8/ff/4c/pool-area.jpg?w=700&h=-1&s=1',
       highlights: ['Tranquil garden setting', 'Two pools', 'Golf cart shuttle', 'Quiet retreat', 'Great value'],
       priceRange: '$'
     },
@@ -160,7 +160,7 @@ const Hotels = () => {
       description: 'A new boutique hotel (opened in 2021) offering 20 modern suites just a 2-minute stroll from Grace Bay Beach. Features fresh contemporary design, full kitchens, washer/dryers, balconies, free continental breakfast, and a relaxed pool area with pergolas.',
       website: 'https://tidesgracebay.com',
       phone: '+1 (649) 941-8439',
-      image: 'https://www.tidesgracebay.com/wp-content/uploads/2021/06/tides-grace-bay-exterior.jpg',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/7a/41/89/the-tides-grace-bay.jpg?w=700&h=-1&s=1',
       highlights: ['Opened 2021', 'Contemporary design', 'Full kitchens', 'Free breakfast', 'Pool with pergolas'],
       priceRange: '$$'
     }
