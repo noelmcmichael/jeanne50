@@ -28,7 +28,7 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 
 ## 🏝️ Latest Updates
 
-### ✅ Hotels & Accommodations Page Added (July 2025)
+### ✅ Hotels & Accommodations Page Enhanced (July 2025)
 - **NEW: Dedicated Hotels Page**: Separate page accessible via navigation menu
 - **17 Featured Properties**: Comprehensive coverage from luxury to boutique
 - **4 Hotel Categories**: Luxury beachfront, all-inclusive, condo-style, boutique inns
@@ -55,6 +55,7 @@ Each property now features comprehensive descriptions including:
 - **Guest Experience**: Welcome amenities (e.g., Seven Stars' rum punch and chilled towels)
 - **Location Benefits**: Proximity advantages (e.g., Coral Gardens' reef access, Alexandra's sister resort privileges)
 - **Unique Properties**: Special features like The Strand's 47-acre compound with private marina and butler service
+- **Latest Addition**: The Strand - newest luxury resort on Cooper Jack Bay with sustainability focus
 
 ### ✅ Resources Section Completed (July 2025)
 - **16 Curated Resources** across 5 thoughtful categories
