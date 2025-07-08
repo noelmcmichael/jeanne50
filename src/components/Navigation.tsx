@@ -22,6 +22,7 @@ const Navigation = () => {
   const navLinks = [
     { href: '#itinerary', label: 'Itinerary' },
     { href: '#travel', label: 'Travel' },
+    { href: '#resources', label: 'Resources' },
     { href: '#gallery', label: 'Gallery' },
     { href: '#memories', label: 'Memories' },
     { href: '#rsvp', label: 'RSVP' },

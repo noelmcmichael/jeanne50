@@ -1,6 +1,7 @@
 import Hero from './components/Hero';
 import Itinerary from './components/Itinerary';
 import Travel from './components/Travel';
+import Resources from './components/Resources';
 import Destination from './components/Destination';
 import Gallery from './components/Gallery';
 import Memories from './components/Memories';
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div id="travel">
         <Travel />
+      </div>
+      <div id="resources">
+        <Resources />
       </div>
       <Destination />
       <div id="gallery">
