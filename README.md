@@ -30,7 +30,7 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 
 ### ✅ Hotels & Accommodations Page Added (July 2025)
 - **NEW: Dedicated Hotels Page**: Separate page accessible via navigation menu
-- **13 Featured Properties**: Comprehensive coverage from luxury to boutique
+- **16 Featured Properties**: Comprehensive coverage from luxury to boutique
 - **4 Hotel Categories**: Luxury beachfront, all-inclusive, condo-style, boutique inns
 - **Authentic Imagery**: Property photos sourced directly from official hotel websites
 - **Complete Details**: Descriptions, phone numbers, websites, highlights, pricing tiers
@@ -39,10 +39,20 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 - **Responsive Design**: Mobile-optimized cards with hover effects and category organization
 
 #### Featured Properties Include:
-- **Luxury**: Grace Bay Club, Seven Stars, Ritz-Carlton, The Palms, Point Grace
-- **All-Inclusive**: Beaches Turks & Caicos, Club Med Turkoise, Alexandra Resort
-- **Condo-Style**: Ocean Club East, Coral Gardens on Grace Bay
+- **Luxury**: Grace Bay Club, Seven Stars, Ritz-Carlton, The Palms, Point Grace, Wymara Resort & Villas
+- **All-Inclusive**: Beaches Turks & Caicos, Club Med Turkoise, Alexandra Resort, Beach House
+- **Condo-Style**: Ocean Club East, Ocean Club West, Coral Gardens on Grace Bay
 - **Boutique**: Sibonné Beach Hotel, The Oasis, The Tides Grace Bay
+
+#### Hotel Description Enhancements:
+Each property now features comprehensive descriptions including:
+- **Historical Context**: Original opening dates, heritage details (e.g., Sibonné as "Le Deck" from 1980s)
+- **Architectural Details**: Building specifications (e.g., Ritz-Carlton's 12-story design)
+- **Unique Amenities**: Specific features like Beaches' Pirates Island waterpark, Club Med's trapeze lessons
+- **Award Recognition**: Industry accolades (e.g., Point Grace's World Travel Awards win)
+- **Dining Specifics**: Restaurant details (e.g., The Palms' Parallel23, Ocean Club's Opus)
+- **Guest Experience**: Welcome amenities (e.g., Seven Stars' rum punch and chilled towels)
+- **Location Benefits**: Proximity advantages (e.g., Coral Gardens' reef access, Alexandra's sister resort privileges)
 
 ### ✅ Resources Section Completed (July 2025)
 - **16 Curated Resources** across 5 thoughtful categories

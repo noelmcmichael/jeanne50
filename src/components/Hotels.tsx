@@ -70,6 +70,17 @@ const Hotels = () => {
       highlights: ['Relais & Châteaux', 'Thalasso spa', 'Grace\'s Cottage restaurant', 'Old Caribbean charm', 'Secluded location'],
       priceRange: '$$$$'
     },
+    {
+      id: 'wymara-resort',
+      category: 'luxury',
+      name: 'Wymara Resort & Villas',
+      description: 'A sleek, modern boutique resort (formerly Gansevoort) located on the western end of Grace Bay Beach. Wymara features 91 contemporary island-inspired rooms and suites (all recently renovated with chic design) and a stunning pool scene: a 7,000 sq. ft. mosaic tiled pool with "floating" island pods. The resort boasts two signature restaurants (Indigo and Zest), a full-service spa and fitness center. In addition, Wymara offers seven exclusive oceanfront villas off-site (with private pools and over-water swim platforms) for those seeking ultra-private luxury.',
+      website: 'https://wymararesortandvillas.com',
+      phone: '+1 (649) 941-7555',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/66/fc/f8/wymara-resort-villas.jpg?w=700&h=-1&s=1',
+      highlights: ['7,000 sq ft mosaic pool', 'Floating island pods', 'Indigo & Zest restaurants', 'Off-site villas', 'Recently renovated'],
+      priceRange: '$$$$'
+    },
 
     // All-Inclusive & Major Resorts
     {
@@ -105,6 +116,17 @@ const Hotels = () => {
       highlights: ['Family-friendly', 'Swim-up bar', 'Sister resort privileges', 'Central location', 'Multiple dining'],
       priceRange: '$$'
     },
+    {
+      id: 'beach-house',
+      category: 'all-inclusive',
+      name: 'Beach House',
+      description: 'A boutique 21-suite all-inclusive that is adults-only (ages 18+). True to its name, Beach House has a quaint, beach-cottage vibe – each suite is bright and airy, with separate bedroom and living area. The resort sits on a quiet west Grace Bay plot and provides "pampering without pretense." Guests enjoy a beachfront pool, two restaurants (casual and upscale), beach service, and a level of serenity not found at larger all-inclusives. "The all-suite Beach House is one of the first authentically boutique resorts on Grace Bay Beach…welcomes couples" seeking a relaxed getaway. (This resort is also part of Turks & Caicos Collection, with exchange privileges.)',
+      website: 'https://turksandcaicoscollection.com/beach-house',
+      phone: '+1 (649) 941-8888',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0b/48/9c/beach-house-turks-caicos.jpg?w=700&h=-1&s=1',
+      highlights: ['Adults-only boutique', '21 suites only', 'Beach-cottage vibe', 'Two restaurants', 'Sister resort privileges'],
+      priceRange: '$$$'
+    },
 
     // Condo-Style Resorts
     {
@@ -116,6 +138,17 @@ const Hotels = () => {
       phone: '+1 (649) 946-5880',
       image: 'https://www.oceanclubresorts.com/wp-content/uploads/2024/08/rsz_main_photo_OCE-1024x768.jpg',
       highlights: ['Golf course adjacent', 'Full kitchens', 'Two pools', 'Opus restaurant', 'Classic Caribbean feel'],
+      priceRange: '$$$'
+    },
+    {
+      id: 'ocean-club-west',
+      category: 'condo',
+      name: 'Ocean Club West',
+      description: 'Located nearer the central Grace Bay area (walking distance to many restaurants), OCW is the sister property to Ocean Club. It offers similarly outfitted condo suites, but the grounds are more compact. The resort features a large free-form pool with a swim-up bar, a casual restaurant, and a fitness center. Many families enjoy staying here for the convenience; and they can also use facilities at Ocean Club East. Together, "whether you choose Ocean Club or Ocean Club West, you\'re in for an unforgettable experience" with the comforts of a condo and resort services combined.',
+      website: 'https://oceanclubresorts.com',
+      phone: '+1 (649) 946-5880',
+      image: 'https://www.oceanclubresorts.com/wp-content/uploads/2024/08/rsz_main_photo_OCW-1024x768.jpg',
+      highlights: ['Central location', 'Walking to restaurants', 'Sister resort privileges', 'Swim-up bar', 'Compact grounds'],
       priceRange: '$$$'
     },
     {
