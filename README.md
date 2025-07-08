@@ -34,6 +34,7 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 - **4 Hotel Categories**: Luxury beachfront, all-inclusive, condo-style, boutique inns
 - **Authentic Imagery**: Property photos sourced directly from official hotel websites
 - **Complete Details**: Descriptions, phone numbers, websites, highlights, pricing tiers
+- **Enhanced Descriptions**: Detailed property descriptions to help differentiate each accommodation
 - **React Router Integration**: Seamless navigation between main site and hotels page
 - **Responsive Design**: Mobile-optimized cards with hover effects and category organization
 
