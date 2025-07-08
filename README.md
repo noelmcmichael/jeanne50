@@ -30,7 +30,7 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 
 ### ✅ Hotels & Accommodations Page Added (July 2025)
 - **NEW: Dedicated Hotels Page**: Separate page accessible via navigation menu
-- **16 Featured Properties**: Comprehensive coverage from luxury to boutique
+- **17 Featured Properties**: Comprehensive coverage from luxury to boutique
 - **4 Hotel Categories**: Luxury beachfront, all-inclusive, condo-style, boutique inns
 - **Authentic Imagery**: Property photos sourced directly from official hotel websites
 - **Complete Details**: Descriptions, phone numbers, websites, highlights, pricing tiers
@@ -40,7 +40,7 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 - **Responsive Design**: Mobile-optimized cards with hover effects and category organization
 
 #### Featured Properties Include:
-- **Luxury**: Grace Bay Club, Seven Stars, Ritz-Carlton, The Palms, Point Grace, Wymara Resort & Villas
+- **Luxury**: Grace Bay Club, Seven Stars, Ritz-Carlton, The Palms, Point Grace, Wymara Resort & Villas, The Strand
 - **All-Inclusive**: Beaches Turks & Caicos, Club Med Turkoise, Alexandra Resort, Beach House
 - **Condo-Style**: Ocean Club East, Ocean Club West, Coral Gardens on Grace Bay
 - **Boutique**: Sibonné Beach Hotel, The Oasis, The Tides Grace Bay
@@ -54,6 +54,7 @@ Each property now features comprehensive descriptions including:
 - **Dining Specifics**: Restaurant details (e.g., The Palms' Parallel23, Ocean Club's Opus)
 - **Guest Experience**: Welcome amenities (e.g., Seven Stars' rum punch and chilled towels)
 - **Location Benefits**: Proximity advantages (e.g., Coral Gardens' reef access, Alexandra's sister resort privileges)
+- **Unique Properties**: Special features like The Strand's 47-acre compound with private marina and butler service
 
 ### ✅ Resources Section Completed (July 2025)
 - **16 Curated Resources** across 5 thoughtful categories

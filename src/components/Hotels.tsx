@@ -81,6 +81,17 @@ const Hotels = () => {
       highlights: ['7,000 sq ft mosaic pool', 'Floating island pods', 'Indigo & Zest restaurants', 'Off-site villas', 'Recently renovated'],
       priceRange: '$$$$'
     },
+    {
+      id: 'the-strand',
+      category: 'luxury',
+      name: 'The Strand',
+      description: 'A stunning 47-acre gated compound featuring intentionally low-rise and angular design, with suites and villas that feel like sleek sand-toned "sand-castles" built into the limestone bluff. Interiors favour pale coral stone, teak, and retractable glass, so every space frames the turquoise Caicos Bank panorama. The absence of high-rise neighbours and the half-mile of private shoreline give the resort a quietly exclusive, residential atmosphere. Accommodations range from ~1,700 ft² Oceanfront Suites with plunge pools to 7,500 ft²+ Five-Bedroom Residences with daily butler service. All categories share automated blackout shades, Dyson hair tools, Miele/Liebherr appliances, and twice-daily housekeeping. The resort features DelMar restaurant with live-fire seafood and prime steaks, plus marina access with captain JD for exploring the Caicos Cays.',
+      website: 'https://thestrandtci.com',
+      phone: '+1 (649) 232-4222',
+      image: 'https://i0.wp.com/thestrandtci.com/wp-content/uploads/2024/12/Strand-Exterior_-8.jpeg?w=2000&quality=89&ssl=1',
+      highlights: ['47-acre gated compound', 'Half-mile private shoreline', 'Butler service available', 'DelMar restaurant', 'Private marina', 'Sustainability focused'],
+      priceRange: '$$$$'
+    },
 
     // All-Inclusive & Major Resorts
     {
