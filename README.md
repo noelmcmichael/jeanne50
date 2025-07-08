@@ -26,12 +26,15 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 
 ## 🏝️ Latest Updates
 
-### Resources Section Added (Current Work)
-- **Activities & Tours**: Top-rated excursions, snorkeling, diving, and adventure tours
-- **Dining Guide**: Best restaurants from casual beachfront to fine dining
-- **Beaches**: Hidden gems and world-famous Grace Bay Beach
-- **Golf & Wellness**: Royal Turks & Caicos Golf Club and luxury spas
-- **Water Sports**: Comprehensive water activities and equipment rental guide
+### ✅ Resources Section Completed (July 2025)
+- **16 Curated Resources** across 5 thoughtful categories
+- **Water Sports & Adventures**: Ocean Vibes Tours, Island Vibes Tours, Aqua TCI diving, kiteboarding
+- **Fine Dining & Restaurants**: Coco Bistro, Infiniti, Grace's Cottage, Da Conch Shack, Marine Room
+- **Golf & Recreation**: Royal Turks & Caicos Golf Club (#1 Caribbean course)
+- **Luxury Spas & Wellness**: Shambhala at COMO Parrot Cay, Ritz-Carlton Spa, Seven Stars Spa
+- **Beaches & Hidden Gems**: Grace Bay Beach, Taylor Bay, Long Bay Beach
+- **Features**: Pricing info, highlights, descriptions, thumbnail images, external links
+- **Design**: Responsive cards with hover effects, category icons, mobile-optimized
 
 ### Previous Updates
 - **Gallery Curation**: 60+ personal photos plus 10 destination images
@@ -74,21 +77,31 @@ npm run build && netlify deploy --prod --dir=dist
 
 ## 🗺️ Resource Categories
 
-### Activities & Excursions
-- Half-day and full-day sailing/snorkeling tours
-- Island hopping to North & Middle Caicos
-- ATV adventures and eco tours
-- Parasailing and water sports
+### Water Sports & Adventures (4 resources)
+- **Ocean Vibes Tours**: Native-owned, comprehensive adventures ($75-150)
+- **Island Vibes Tours**: JoJo dolphin encounters, Half Moon Bay ($95-180)
+- **Aqua TCI**: Premier scuba diving, wall diving specialists ($85-200)
+- **Turks and Caicos Kiteboarding**: Long Bay instruction ($80-150)
 
-### Dining & Nightlife
-- Fine dining: Coco Bistro, Infiniti, Grace's Cottage
-- Beachfront casual: Da Conch Shack, Bay Bistro
-- Sunset spots: Marine Room, Seven Stars
+### Fine Dining & Restaurants (5 resources)
+- **Coco Bistro**: Romantic palm grove setting ($$$$)
+- **Infiniti Restaurant**: Waterfront at Grace Bay Club ($$$$)
+- **Grace's Cottage**: French-Caribbean with gazebo dining ($$$)
+- **Da Conch Shack**: Iconic beachfront casual ($$)
+- **Marine Room**: Upscale sunset dining ($$$)
 
-### Wellness & Recreation
-- Royal Turks & Caicos Golf Club (Caribbean's #1 rated)
-- Luxury resort spas: Shambhala at COMO Parrot Cay
-- Beach and pool activities
+### Golf & Recreation (1 resource)
+- **Royal Turks & Caicos Golf Club**: #1 Caribbean course ($195-295)
+
+### Luxury Spas & Wellness (3 resources)
+- **Shambhala Spa at COMO Parrot Cay**: World-renowned private island spa ($$$$)
+- **The Ritz-Carlton Spa**: Grace Bay luxury treatments ($$$-$$$$)
+- **Seven Stars Resort Spa**: Beachfront with Grace Bay views ($$$)
+
+### Beaches & Hidden Gems (3 resources)
+- **Grace Bay Beach**: World's #1 beach, 12 miles of perfection (Free)
+- **Taylor Bay**: Hidden gem with shallow family-friendly waters (Free)
+- **Long Bay Beach**: Kiteboarding paradise with dramatic sunsets (Free)
 
 ## 🚀 Deployment
 
