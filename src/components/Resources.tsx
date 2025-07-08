@@ -1,4 +1,4 @@
-import { ExternalLink, Anchor, Car, Utensils, MapPin, Camera, Dumbbell } from 'lucide-react';
+import { ExternalLink, Anchor, Heart, Utensils, MapPin, Camera, Dumbbell } from 'lucide-react';
 
 interface Resource {
   name: string;
@@ -162,7 +162,7 @@ const Resources = () => {
       case "Water Sports & Adventures": return <Anchor className="w-6 h-6" />;
       case "Fine Dining & Restaurants": return <Utensils className="w-6 h-6" />;
       case "Golf & Recreation": return <Dumbbell className="w-6 h-6" />;
-      case "Luxury Spas & Wellness": return <Car className="w-6 h-6" />;
+      case "Luxury Spas & Wellness": return <Heart className="w-6 h-6" />;
       case "Beaches & Hidden Gems": return <MapPin className="w-6 h-6" />;
       default: return <Camera className="w-6 h-6" />;
     }
