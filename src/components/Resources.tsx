@@ -124,7 +124,7 @@ const Resources = () => {
       name: "Grace Bay Beach",
       description: "World's #1 beach consistently rated by TripAdvisor and travel experts. 12 miles of pristine white sand and turquoise waters protected by barrier reef.",
       category: "Beaches & Hidden Gems",
-      website: "https://visittci.com/grace-bay-beach",
+      website: "https://www.visittci.com/things-to-do/best-beaches",
       image: "/turks/grace-bay-beach-turks-caicos-islands.jpg",
       price: "Free",
       highlights: ["World's #1 beach", "12 miles of white sand", "Crystal clear waters", "Barrier reef protection", "Multiple access points"]
@@ -133,7 +133,7 @@ const Resources = () => {
       name: "Taylor Bay",
       description: "Hidden gem beach perfect for families with incredibly shallow, warm waters. Secluded location near Chalk Sound with pristine natural beauty.",
       category: "Beaches & Hidden Gems",
-      website: "https://visittci.com/taylor-bay",
+      website: "https://www.visittci.com/things-to-do/best-beaches",
       image: "/turks/cover-bonfire-beach-long-bay-providenciales_1280x640.jpg",
       price: "Free",
       highlights: ["Hidden gem location", "Shallow warm waters", "Perfect for families", "Near Chalk Sound", "Bring your own amenities"]
@@ -142,10 +142,39 @@ const Resources = () => {
       name: "Long Bay Beach",
       description: "Spectacular beach with shallow turquoise waters extending far offshore. Popular for kiteboarding and romantic walks with dramatic sky views.",
       category: "Beaches & Hidden Gems",
-      website: "https://visittci.com/long-bay-beach",
+      website: "https://www.visittci.com/things-to-do/best-beaches",
       image: "/turks/style_traveler-1.jpg",
       price: "Free",
       highlights: ["Kiteboarding paradise", "Shallow waters", "Miles of sand", "Dramatic sunsets", "Less crowded"]
+    },
+
+    // Additional Resources
+    {
+      name: "Marine Room Restaurant",
+      description: "Upscale beachfront dining with spectacular sunset views. Features fresh seafood and international cuisine in an elegant oceanfront setting.",
+      category: "Fine Dining & Restaurants",
+      website: "https://marineroom.tc/",
+      image: "/turks/wymara-beach-bbq-bonfire-night_2048x1365.jpg",
+      price: "$$$",
+      highlights: ["Sunset dinner views", "Fresh seafood", "Beachfront location", "Romantic atmosphere", "International cuisine"]
+    },
+    {
+      name: "Half Moon Bay Island Hopping",
+      description: "Visit the stunning uninhabited island between Caribbean and Atlantic. Perfect for iguana watching, pristine beaches, and unique geography.",
+      category: "Water Sports & Adventures",
+      website: "https://islandvibestours.com/",
+      image: "/turks/OG_The-Ultimate-Turks-and-Caicos-Travel-Guide.jpg",
+      price: "$95-150",
+      highlights: ["Uninhabited island", "Rock iguana colony", "Two ocean meeting point", "Pristine beaches", "Photography opportunities"]
+    },
+    {
+      name: "Seven Stars Resort Spa",
+      description: "Luxury beachfront spa offering world-class treatments with Grace Bay Beach views. Features hot stone therapy and signature island treatments.",
+      category: "Luxury Spas & Wellness",
+      website: "https://www.sevenstarsgracebay.com/world-class-spa",
+      image: "/turks/CIELO+-+Grace+Bay,+Turks+and+Caicos.jpeg",
+      price: "$$$",
+      highlights: ["Beachfront spa", "Hot stone therapy", "Grace Bay views", "Signature treatments", "Luxury resort amenities"]
     }
   ];
 
