@@ -1,68 +1,60 @@
-# VibePlan
+# Jeanne's 50th Birthday - Turks & Caicos Celebration
 
-> Revolutionary MCP server that brings intelligent software planning directly into your coding environment.
+> Celebrating Jeanne's milestone 50th birthday with a tropical paradise getaway to Turks & Caicos Islands
 
 ## 🌐 Live Website
 
-**[https://VibePlan.it](https://VibePlan.it)**  
-*Also available at: [https://vibeplan-it.netlify.app](https://vibeplan-it.netlify.app)*
+**[https://jeanne50.netlify.app](https://jeanne50.netlify.app)**
 
-Experience the future of software planning with our beautiful, interactive website showcasing the power of inline planning.
+Experience the beauty of our birthday celebration website featuring stunning tropical design and comprehensive travel resources.
+
+## 🎉 Event Details
+
+- **Date**: June 13-20, 2026
+- **Location**: Turks & Caicos Islands  
+- **Main Island**: Providenciales (Grace Bay)
+- **Theme**: Elegant tropical celebration with world-class beaches and amenities
 
 ## ✨ Features
 
-- **Zero Context Switching**: Plan directly in your vibe coding tool without leaving your development environment
-- **AI-Powered Planning**: Intelligent questioning system that ensures comprehensive requirement gathering
-- **Instant Documentation**: Automatically generate PRDs and implementation plans from conversations
-- **MCP Integration**: Built on the Model Context Protocol for seamless tool integration
-- **VibePlanners Focused**: Designed for tech-savvy developers of all skill levels
+- **Interactive Countdown**: Real-time countdown to celebration dates
+- **Beautiful Gallery**: Curated collection of personal and destination photos
+- **Travel Resources**: Comprehensive guide to the best activities, dining, and experiences
+- **Itinerary Planning**: Detailed schedule of planned activities and events
+- **RSVP System**: Easy email-based RSVP for guest responses
+- **Mobile Responsive**: Beautiful experience across all devices
 
-## 🚀 Quick Start
+## 🏝️ Latest Updates
 
-### Installation
+### Resources Section Added (Current Work)
+- **Activities & Tours**: Top-rated excursions, snorkeling, diving, and adventure tours
+- **Dining Guide**: Best restaurants from casual beachfront to fine dining
+- **Beaches**: Hidden gems and world-famous Grace Bay Beach
+- **Golf & Wellness**: Royal Turks & Caicos Golf Club and luxury spas
+- **Water Sports**: Comprehensive water activities and equipment rental guide
 
-```bash
-npm install -g @vibeplan/stack-planner
-```
+### Previous Updates
+- **Gallery Curation**: 60+ personal photos plus 10 destination images
+- **Mobile Navigation**: Hamburger menu with smooth scrolling
+- **Hero Enhancement**: Custom beach background with floating text animations
+- **Content Updates**: Updated dates, accommodation details, and event information
 
-### Configuration
-
-Add to your MCP configuration:
-
-```json
-{
-  "servers": {
-    "vibeplan-stack-planner": {
-      "command": "vibeplan-stack-planner",
-      "args": []
-    }
-  }
-}
-```
-
-### Usage
-
-```typescript
-// Start planning directly in your IDE
-// Ask VibePlan: Help me plan a user authentication system
-```
-
-## 🎯 Benefits
-
-- **95% less context switching** - Plan where you code
-- **90% time reduction** - From hours to minutes of planning
-- **100% requirement coverage** - AI ensures nothing is missed
-- **Instant PRD generation** - Professional documentation ready to share
-
-## 🛠️ Development
+## 🛠️ Technical Details
 
 This website is built with:
 
-- **React + TypeScript** - Modern web development
+- **React + TypeScript** - Modern, type-safe development
 - **Vite** - Lightning fast build tool
 - **Tailwind CSS** - Beautiful, responsive design
-- **Framer Motion** - Smooth animations
-- **Apple-level design quality** - Built for VibePlanners
+- **Framer Motion** - Smooth animations and transitions
+- **Google Maps Integration** - Interactive travel mapping
+- **Netlify Deployment** - Reliable hosting and CI/CD
+
+### Design Elements
+- **Color Palette**: Ocean blue (#00A7B5), sunset gold (#FFD700), sand (#F5F5DC)
+- **Typography**: Cormorant Garamond headings, Poppins body text
+- **Animations**: Ken Burns effect, floating text, hover transitions
+- **Mobile-First**: Responsive hamburger navigation and optimized layouts
 
 ### Local Development
 
@@ -75,25 +67,36 @@ npm run dev
 
 # Build for production
 npm run build
+
+# Deploy to Netlify
+npm run build && netlify deploy --prod --dir=dist
 ```
 
-## 📚 Resources
+## 🗺️ Resource Categories
 
-- [GitHub Repository](https://github.com/memextech/vibe-plan-mcp)
-- [MCP Protocol Documentation](https://modelcontextprotocol.io/)
-- [Installation Guide](https://github.com/memextech/vibe-plan-mcp#readme)
+### Activities & Excursions
+- Half-day and full-day sailing/snorkeling tours
+- Island hopping to North & Middle Caicos
+- ATV adventures and eco tours
+- Parasailing and water sports
 
-## 🤝 Contributing
+### Dining & Nightlife
+- Fine dining: Coco Bistro, Infiniti, Grace's Cottage
+- Beachfront casual: Da Conch Shack, Bay Bistro
+- Sunset spots: Marine Room, Seven Stars
 
-We welcome contributions! Join our community of developers transforming the software planning experience.
+### Wellness & Recreation
+- Royal Turks & Caicos Golf Club (Caribbean's #1 rated)
+- Luxury resort spas: Shambhala at COMO Parrot Cay
+- Beach and pool activities
 
-## 📄 License
+## 🚀 Deployment
 
-This project is licensed under the ISC License.
+The site is automatically deployed to Netlify from the main branch. All images and resources are optimized for fast loading and mobile devices.
 
 ---
 
-**Ready to transform your workflow?**  
-Experience the future of software planning - plan directly in your code.
+**Join us in celebrating Jeanne's 50th!**  
+*A milestone birthday deserves a paradise celebration.*
 
-*Built with ❤️ for developers | Powered by MCP | Generated with [Memex](https://memex.tech)*
+*Built with ❤️ for family and friends | Generated with [Memex](https://memex.tech)*
