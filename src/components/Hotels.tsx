@@ -77,7 +77,7 @@ const Hotels = () => {
       description: 'A sleek, modern boutique resort (formerly Gansevoort) located on the western end of Grace Bay Beach. Wymara features 91 contemporary island-inspired rooms and suites (all recently renovated with chic design) and a stunning pool scene: a 7,000 sq. ft. mosaic tiled pool with "floating" island pods. The resort boasts two signature restaurants (Indigo and Zest), a full-service spa and fitness center. In addition, Wymara offers seven exclusive oceanfront villas off-site (with private pools and over-water swim platforms) for those seeking ultra-private luxury.',
       website: 'https://wymararesortandvillas.com',
       phone: '+1 (649) 941-7555',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/66/fc/f8/wymara-resort-villas.jpg?w=700&h=-1&s=1',
+      image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       highlights: ['7,000 sq ft mosaic pool', 'Floating island pods', 'Indigo & Zest restaurants', 'Off-site villas', 'Recently renovated'],
       priceRange: '$$$$'
     },
@@ -101,7 +101,7 @@ const Hotels = () => {
       description: 'A adults-only (18+) all-inclusive resort at the eastern tip of Grace Bay. This is a Club Med classic, known for a sociable, fun atmosphere. It has bungalow-style rooms (recently updated), a beautiful beachfront infinity pool, multiple bars, and nightly entertainment. "Club Med Turkoise is the perfect adults-only destination for those looking for a fun-filled tropical get-away," set on a spectacular stretch of beach. Activities like sailing, snorkeling, tennis, trapeze, and scuba lessons are included, making it great value for active travelers.',
       website: 'https://clubmed.us/turkoise',
       phone: '+1 (649) 946-5500',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c8/41/4a/exterior.jpg?w=700&h=-1&s=1',
+      image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       highlights: ['Adults-only', 'Bungalow-style rooms', 'Trapeze lessons', 'Sailing included', 'Nightly entertainment'],
       priceRange: '$$$'
     },
@@ -112,7 +112,7 @@ const Hotels = () => {
       description: 'A family-friendly all-inclusive resort centrally located on Grace Bay. It offers 120+ rooms/suites (studios to two-bedroom suites, many with kitchenettes) in a casual, lively environment. Alexandra features multiple dining options (buffet and à la carte restaurants plus beach bars), a large free-form swimming pool with swim-up bar, non-motorized water sports, and evening entertainment. It\'s part of the Turks & Caicos Collection group, which means guests can free shuttle and dine at sister resorts (Blue Haven and Beach House). "Alexandra Resort…invites you to enjoy the best resort value on world acclaimed Grace Bay Beach".',
       website: 'https://alexandraresort.com',
       phone: '+1 (649) 946-5807',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/8c/5f/e8/pool-area.jpg?w=700&h=-1&s=1',
+      image: 'https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       highlights: ['Family-friendly', 'Swim-up bar', 'Sister resort privileges', 'Central location', 'Multiple dining'],
       priceRange: '$$'
     },
@@ -123,7 +123,7 @@ const Hotels = () => {
       description: 'A boutique 21-suite all-inclusive that is adults-only (ages 18+). True to its name, Beach House has a quaint, beach-cottage vibe – each suite is bright and airy, with separate bedroom and living area. The resort sits on a quiet west Grace Bay plot and provides "pampering without pretense." Guests enjoy a beachfront pool, two restaurants (casual and upscale), beach service, and a level of serenity not found at larger all-inclusives. "The all-suite Beach House is one of the first authentically boutique resorts on Grace Bay Beach…welcomes couples" seeking a relaxed getaway. (This resort is also part of Turks & Caicos Collection, with exchange privileges.)',
       website: 'https://turksandcaicoscollection.com/beach-house',
       phone: '+1 (649) 941-8888',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0b/48/9c/beach-house-turks-caicos.jpg?w=700&h=-1&s=1',
+      image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       highlights: ['Adults-only boutique', '21 suites only', 'Beach-cottage vibe', 'Two restaurants', 'Sister resort privileges'],
       priceRange: '$$$'
     },
@@ -158,7 +158,7 @@ const Hotels = () => {
       description: 'An intimate condo resort directly fronting the best snorkeling spot on Grace Bay (the Coral Gardens reef in Princess Alexandra Marine Park). It\'s a small property with one- and two-bedroom condo units, a beachfront pool, and the Somewhere Cafe restaurant which is a local favorite for sunset drinks. "Welcome to Coral Gardens, an intimate and luxurious resort located directly on a secluded stretch of Grace Bay…internationally renowned snorkeling right outside your door." This is a great choice for travelers who plan to snorkel daily – you can step right from your room to the reef.',
       website: 'https://coralgardens.tc',
       phone: '+1 (800) 532-8536',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/e0/9a/d8/coral-gardens-on-grace.jpg?w=700&h=-1&s=1',
+      image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       highlights: ['Best snorkeling', 'Coral Gardens reef', 'Somewhere Cafe', 'Intimate setting', 'Beachfront pool'],
       priceRange: '$$'
     },
@@ -171,7 +171,7 @@ const Hotels = () => {
       description: 'A charming beachfront inn with only 30 rooms, Sibonné is the oldest hotel on Grace Bay (a 3-star property formerly known as "Le Deck" back in the 1980s). Its appeal lies in its intimacy and value – you stay right on Grace Bay Beach for a fraction of the cost of larger resorts. Rooms are simple but clean and many have garden or partial sea views. There\'s a small pool and lush tropical courtyard, and the excellent Bay Bistro restaurant on-site for beachfront dining. Sibonné offers a "casual, laid-back ambiance" beloved by longtime visitors.',
       website: 'https://sibonne.com',
       phone: '+1 (649) 946-5547',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/78/d2/2c/sibonne-beach-hotel.jpg?w=700&h=-1&s=1',
+      image: 'https://static.wixstatic.com/media/b613de_6ebfac2f0b9e480ea41715f081f11ed8~mv2.jpg/v1/fill/w_1500,h_942,al_c,q_85,enc_avif,quality_auto/b613de_6ebfac2f0b9e480ea41715f081f11ed8~mv2.jpg',
       highlights: ['Oldest hotel on Grace Bay', 'Bay Bistro restaurant', 'Intimate setting', 'Great value', 'Tropical courtyard'],
       priceRange: '$'
     },
@@ -182,7 +182,7 @@ const Hotels = () => {
       description: 'A 36-unit boutique hotel tucked away on a residential lane just off Grace Bay Road. The Oasis lives up to its name with a tranquil garden setting and two lovely pools. Suites are modern and stylish (studio, 1BR, and 2BR configurations) with contemporary decor and kitchenettes. While it\'s not directly on the beach, Oasis provides free golf cart shuttle service to their designated beach access in minutes. "Contemporary, modern design meets luxurious and affordable accommodations" here. It\'s a top pick for travelers seeking a quiet retreat at a good price point (plus friendly staff get many compliments).',
       website: 'https://oasisgracebay.com',
       phone: '+1 (649) 941-8821',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d8/ff/4c/pool-area.jpg?w=700&h=-1&s=1',
+      image: 'https://oasisgracebay.com/wp-content/uploads/2023/01/example-5-1903x1269.jpg',
       highlights: ['Tranquil garden setting', 'Two pools', 'Golf cart shuttle', 'Quiet retreat', 'Great value'],
       priceRange: '$'
     },
@@ -193,7 +193,7 @@ const Hotels = () => {
       description: 'A new boutique hotel (opened in 2021) offering 20 modern suites just a 2-minute stroll from Grace Bay Beach. Accommodations include one-bedroom pool view suites (approx 830 sq ft) and larger two-bedroom suites, all with full kitchens, washer/dryers, and balconies. The design is fresh and contemporary – "the aesthetic is uncomplicated, light, and fresh…large sliding doors welcome in the ocean breeze". The hotel provides a free continental breakfast and has a relaxed pool area with pergolas. Its location on Princess Drive is quiet yet within easy walking distance to the shops and restaurants of Salt Mills Plaza and Regent Village.',
       website: 'https://tidesgracebay.com',
       phone: '+1 (649) 941-8439',
-      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/7a/41/89/the-tides-grace-bay.jpg?w=700&h=-1&s=1',
+      image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       highlights: ['Opened 2021', 'Contemporary design', 'Full kitchens', 'Free breakfast', 'Pool with pergolas'],
       priceRange: '$$'
     }
