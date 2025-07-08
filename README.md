@@ -33,7 +33,8 @@ Experience the beauty of our birthday celebration website featuring stunning tro
 - **Golf & Recreation**: Royal Turks & Caicos Golf Club (#1 Caribbean course)
 - **Luxury Spas & Wellness**: Shambhala at COMO Parrot Cay, Ritz-Carlton Spa, Seven Stars Spa
 - **Beaches & Hidden Gems**: Grace Bay Beach, Taylor Bay, Long Bay Beach
-- **Features**: Pricing info, highlights, descriptions, thumbnail images, external links
+- **Authentic Images**: All thumbnails sourced directly from business websites for maximum authenticity
+- **Features**: Pricing info, highlights, descriptions, authentic photos, external links
 - **Design**: Responsive cards with hover effects, category icons, mobile-optimized
 
 ### Previous Updates
